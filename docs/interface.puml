@@ -1,0 +1,23 @@
+@startsalt Search
+{
+  Technologies
+  ^React, yarn, ssr            ^
+
+  {^"Search Results"
+    --
+    {^"Result 1"
+      Hello | World
+      World
+    }
+    --
+    {^"Result 2"
+      Hello
+      World
+    }
+    {+
+      what happens here?
+    }
+  }
+
+}
+@endsalt

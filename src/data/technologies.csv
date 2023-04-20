@@ -1,0 +1,33 @@
+name;label
+
+
+# frameworks
+angular;      Angular
+react;        React
+vue;          Vue
+
+
+# state managers
+redux;        Redux
+mobx;         MobX
+recoil;
+
+
+# CSS / styling
+tailwindcss;  Tailwind CSS
+
+# Build
+vite
+webpack
+
+# Languages
+typescript;
+javascript;
+
+
+# Testing
+cypress;
+
+
+# Automatization
+ci;
