@@ -21,15 +21,21 @@ jobs:
       - name: Build
         run: yarn prod
 
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.1.2
-        with:
-          name: github-pages
-          path: dist
-          if-no-files-found: error # optional, default is warn
-
       - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v2.0.1
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ github.token }}
-          artifact_name: github-pages # optional, default is github-pages
+          github_token: ${{ github.token }}
+          publish_dir: ./dist
+
+      # - name: Upload a Build Artifact
+      #   uses: actions/upload-artifact@v3.1.2
+      #   with:
+      #     name: github-pages
+      #     path: dist
+      #     if-no-files-found: error # optional, default is warn
+
+      # - name: Deploy GitHub Pages site
+      #   uses: actions/deploy-pages@v2.0.1
+      #   with:
+      #     token: ${{ github.token }}
+      #     artifact_name: github-pages # optional, default is github-pages
