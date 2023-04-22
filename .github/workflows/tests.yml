@@ -1,12 +1,21 @@
-name: 'Run tests'
+name: 'Run Tests'
 
 on:
   pull_request:
 
+run-name: Testing branch ${{ github.head_ref }}
+
 jobs:
-  test:
+  testing:
     runs-on: ubuntu-latest
     steps:
+      - name: Info
+        run: |
+          echo "Branch: ${{ github.head_ref }}"
+          echo "Actor:  ${{ github.actor }}"
+          echo "${{ toJson(github)}}"
+          echo "========================"
+          echo ${{ toJson(inputs) }}
       - name: Checkout
         uses: actions/checkout@v3
 
