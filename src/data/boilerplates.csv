@@ -1,1 +1,2 @@
 name;website;git;technologies;version;description
+create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,svg,playwright,typescript,css;;Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or """"vanilla"""" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.

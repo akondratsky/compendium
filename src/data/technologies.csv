@@ -6,16 +6,17 @@ angular;      Angular
 react;        React
 vue;          Vue
 vanillajs;    Vanilla
+electron;     Electron
 
 # state managers
 redux;        Redux
 mobx;         MobX
 recoil;
 
-
 # CSS / styling
 tailwindcss;  Tailwind CSS
 scss;         SCSS
+css;          CSS
 
 # Build
 vite;         Vite
