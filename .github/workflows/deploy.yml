@@ -4,6 +4,8 @@ on:
   push:
     branches: [ "main" ]
 
+run-name: GitHub Pages Deploy
+
 permissions:
   contents: write
 
@@ -11,17 +13,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Information
+        run: |
+          echo "Triggered by:  ${{ github.triggering_actor }}"
+
       - name: Checkout
         uses: actions/checkout@v3
 
-      # - name: Install
-      #   run: yarn install
+      - name: Install
+        run: yarn install
 
-      # - name: Build
-      #   run: yarn prod
+      - name: Build
+        run: yarn prod
 
-      # - name: Deploy GitHub Pages site
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ github.token }}
-      #     publish_dir: ./dist
+      - name: Deploy GitHub Pages site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ github.token }}
+          publish_dir: ./dist
