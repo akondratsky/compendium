@@ -30,9 +30,7 @@ const Layout = () => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Container>
-        <Outlet />
-      </Container>
+      <Outlet />
       <ToastContainer
         position="bottom-left"
         hideProgressBar
