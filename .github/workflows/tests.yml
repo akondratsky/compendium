@@ -12,7 +12,6 @@ jobs:
       - name: Information
         run: |
           echo "Branch:        ${{ github.head_ref }}"
-          echo "Actor:         ${{ github.actor }}"
           echo "Triggered by:  ${{ github.triggering_actor }}"
           echo "MR title:      ${{ github.event.pull_request.title }}"
           echo "MR URL:        ${{ github.event.pull_request.html_url }}"
