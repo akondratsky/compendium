@@ -1,10 +1,10 @@
-name: GitHub Pages Deploy
+name: deployment
 
 on:
   push:
     branches: [ "main" ]
 
-run-name: GitHub Pages Deploy
+run-name: deployment
 
 permissions:
   contents: write

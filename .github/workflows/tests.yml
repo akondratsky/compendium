@@ -3,7 +3,7 @@ name: 'Run Tests'
 on:
   pull_request:
 
-run-name: "Test MR: ${{ github.event.pull_request.title }}"
+run-name: "testing: ${{ github.event.pull_request.title }}"
 
 jobs:
   testing:
