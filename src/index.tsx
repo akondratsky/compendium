@@ -14,7 +14,7 @@ import { Theme } from './Theme';
 const container = document.getElementById('root');
 const root = createRoot(container!);
 const app = (
-  <BrowserRouter>
+  <BrowserRouter basename="/compendium/">
     <RecoilRoot>
       <Theme>
         <App />

@@ -54,6 +54,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, 'env');
 
   return {
+    base: '/compendium/',
     server: { hmr: true },
     plugins: [
       react({
