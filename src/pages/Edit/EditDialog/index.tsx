@@ -1,4 +1,4 @@
-import { boilerplatesTableState, editableBoilerplate, isEditDialogOpen } from '@/services/state';
+import { boilerplatesTableState, changesState, editableBoilerplate, isEditDialogOpen } from '@/services/state';
 import { Button, Dialog, DialogActions, DialogContent, Grid } from '@mui/material';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { TechnologiesInput } from '@/components/TechnologiesInput'
@@ -10,7 +10,7 @@ export const EditDialog = () => {
   const boilerplate = useRecoilValue(editableBoilerplate);
   const selectedTechs = useRecoilValue(technologiesEditorState);
   const [rows, setTableRows] = useRecoilState(boilerplatesTableState);
-
+  const setIsChanged = useSetRecoilState(changesState);
 
   const saveHandler = () => {
     const getBoilerplate = () => ({
@@ -21,16 +21,17 @@ export const EditDialog = () => {
       website: boilerplate.website,
       technologies: selectedTechs.map(s => s.name).join(',')
     });
+    let newRows: typeof rows;
     if (boilerplate.isNew) {
-      setTableRows(rows => [...rows, getBoilerplate()]);
+      newRows = [...rows, getBoilerplate()];
     } else {
       const index = rows.findIndex(row => row.name === boilerplate.name);
-      const newRows = [...rows];
+      newRows = [...rows];
       newRows.splice(index, 1);
       newRows.push(getBoilerplate());
-      setTableRows(newRows);
     }
-
+    setTableRows(newRows);
+    setIsChanged(true);
     setIsOpen(false);
   };
 

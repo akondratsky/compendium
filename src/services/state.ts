@@ -50,5 +50,15 @@ export const editableBoilerplate = atom<EditableBoilerplate>({
   key: 'editableBoilerplateState',
   default: {
     isNew: true,
+    name: '',
+    description: '',
+    git: '',
+    website: '',
+    version: '',
   } as EditableBoilerplate,
+});
+
+export const changesState = atom<boolean>({
+  key: 'changesWereMade',
+  default: false,
 });

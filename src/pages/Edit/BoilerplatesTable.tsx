@@ -3,11 +3,12 @@ import { DataGrid } from '@mui/x-data-grid';
 import { columnDefs } from './columnDefs';
 import { useCallback, useRef } from 'react';
 import { GridApiCommunity } from '@mui/x-data-grid/internals';
-import { useRecoilState, useResetRecoilState, useSetRecoilState } from 'recoil';
-import { boilerplatesTableState, editableBoilerplate, isEditDialogOpen, technologiesEditorState } from '@/services/state';
+import { useRecoilState, useRecoilValue, useResetRecoilState, useSetRecoilState } from 'recoil';
+import { boilerplatesTableState, changesState, editableBoilerplate, isEditDialogOpen, technologiesEditorState } from '@/services/state';
 import { BoilerplateCsvRecord } from '@/types';
 import { getTechnologyOptions } from '@/components/TechnologiesInput';
 import { toast } from 'react-toastify';
+import { useChangesListener } from '@/services/changesListener';
 
 export const BoilerplatesTable = () => {
   const [rows] = useRecoilState(boilerplatesTableState);
@@ -16,6 +17,8 @@ export const BoilerplatesTable = () => {
   const setEditorBoilerplate = useSetRecoilState(editableBoilerplate);
   const resetEditorTechs = useResetRecoilState(technologiesEditorState);
   const setEditorTechs = useSetRecoilState(technologiesEditorState);
+  const isTableChanged = useRecoilValue(changesState);
+  useChangesListener();
 
   const tableRef = useRef<GridApiCommunity>({} as GridApiCommunity);
 
@@ -54,7 +57,12 @@ export const BoilerplatesTable = () => {
         <Typography sx={{ mt: 4 }}>
           Edit this and export table to CSV.
         </Typography>
-        <Button onClick={exportHandler} variant="contained" sx={{ ml: 'auto' }}>
+        <Button
+          onClick={exportHandler}
+          color="success"
+          variant={isTableChanged ? 'contained' : 'outlined'}
+          sx={{ ml: 'auto' }}
+        >
           Export
         </Button>
         <Button onClick={addRowHandler} variant="outlined" sx={{ ml: 2 }}>
