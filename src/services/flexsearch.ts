@@ -6,8 +6,9 @@ import { boilerplates } from '@/data/boilerplates';
 const document = new Document({
   tokenize: 'full',
   document: {
-    id: 'name',
+    id: 'id',
     index: [
+      'name',
       'description',
       'technologies',
       'website',
@@ -16,7 +17,9 @@ const document = new Document({
   }
 });
 
-boilerplates.forEach(b => document.add(b.name, b));
+const id = (name: string, version = '') => `${name}${version}`;
+
+boilerplates.forEach(b => document.add(id(b.name, b.version), b));
 
 const searchByInputValue = (inputValue: string) => {
   return !inputValue
@@ -28,7 +31,8 @@ const searchByInputValue = (inputValue: string) => {
           return uniq(acc);
         }, [] as string[])
         .map((found) => {
-          return boilerplates.find(({ name }) => name === found);
+          console.log('found', found);
+          return boilerplates.find(({ name, version }) => id(name, version) === found);
         }) as Boilerplate[];
 };
 
