@@ -5,7 +5,7 @@ name;label
 angular;      Angular
 react;        React
 vue;          Vue
-
+vanillajs;    Vanilla
 
 # state managers
 redux;        Redux
@@ -15,10 +15,18 @@ recoil;
 
 # CSS / styling
 tailwindcss;  Tailwind CSS
+scss;         SCSS
 
 # Build
-vite
-webpack
+vite;         Vite
+webpack;      Webpack
+
+# Assets
+svg;          SVG
+
+# Testing
+e2e;          e2e
+playwright;   Playwright
 
 # Languages
 typescript;

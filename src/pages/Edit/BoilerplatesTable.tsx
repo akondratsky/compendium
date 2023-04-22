@@ -9,6 +9,14 @@ import { BoilerplateCsvRecord } from '@/types';
 import { getTechnologyOptions } from '@/components/TechnologiesInput';
 import { toast } from 'react-toastify';
 import { useChangesListener } from '@/services/changesListener';
+import { ExportButton } from './ExportButton';
+
+const gridCsvOptions = {
+  delimiter: ';',
+  fileName: 'boilerplates',
+  // for the sake of keeping the same columns order:
+  fields: ['name', 'website', 'git', 'technologies', 'version', 'description'],
+};
 
 export const BoilerplatesTable = () => {
   const [rows] = useRecoilState(boilerplatesTableState);
@@ -23,13 +31,14 @@ export const BoilerplatesTable = () => {
   const tableRef = useRef<GridApiCommunity>({} as GridApiCommunity);
 
   const exportHandler = useCallback(() => {
-    tableRef.current.exportDataAsCsv({
-      delimiter: ';',
-      fileName: 'boilerplates',
-      // for the sake of keeping the same columns order:
-      fields: ['name', 'website', 'git', 'technologies', 'version', 'description'],
-    });
+    tableRef.current.exportDataAsCsv(gridCsvOptions);
     toast.success('Successfully saved!');
+  }, []);
+
+  const copyDataHandler = useCallback(async () => {
+    const data = tableRef.current.getDataAsCsv(gridCsvOptions);
+    await navigator.clipboard.writeText(data);
+    toast.success('Copied to clipboard');
   }, []);
 
   const addRowHandler = () => {
@@ -57,14 +66,7 @@ export const BoilerplatesTable = () => {
         <Typography sx={{ mt: 4 }}>
           Edit this and export table to CSV.
         </Typography>
-        <Button
-          onClick={exportHandler}
-          color="success"
-          variant={isTableChanged ? 'contained' : 'outlined'}
-          sx={{ ml: 'auto' }}
-        >
-          Export
-        </Button>
+        <ExportButton onExport={exportHandler} onCopy={copyDataHandler} isAvailable={isTableChanged} />
         <Button onClick={addRowHandler} variant="outlined" sx={{ ml: 2 }}>
           Add Boilerplate
         </Button>
