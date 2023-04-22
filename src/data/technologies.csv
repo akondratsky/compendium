@@ -7,6 +7,9 @@ react;        React
 vue;          Vue
 vanillajs;    Vanilla
 electron;     Electron
+svelte;       Svelte
+lit;          Lit
+preact;       Preact
 
 # CLI
 Angular CLI
@@ -25,6 +28,7 @@ css;          CSS
 # Build
 vite;         Vite
 webpack;      Webpack
+swc;          SWC
 
 # Assets
 svg;          SVG

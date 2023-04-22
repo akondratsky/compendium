@@ -7,3 +7,5 @@ npm {script}
 
 Next tool can be used to generate installation commands for the vitawind:
 https://vitawind.vercel.app/scaffolding/creator"
+create-vite;https://vitejs.dev/guide/#scaffolding-your-first-vite-project;https://github.com/vitejs/vite/tree/main/packages/create-vite;react,vue,vanillajs,svelte,lit,preact,vite,swc,typescript,javascript;;"Default scaffolder for Vite. List of currently support templates: vanilla, vanilla-ts, vue, vue-ts, react, react-ts, react-swc, react-swc-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts.
+Also support community templates via degit.";npm create vite@latest my-vue-app -- --template {template}
