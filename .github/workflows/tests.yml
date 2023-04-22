@@ -1,12 +1,21 @@
-name: 'Run tests'
+name: 'Run Tests'
 
 on:
   pull_request:
 
+run-name: "Test MR: ${{ github.event.pull_request.title }}"
+
 jobs:
-  test:
+  testing:
     runs-on: ubuntu-latest
     steps:
+      - name: Information
+        run: |
+          echo "Branch:        ${{ github.head_ref }}"
+          echo "Triggered by:  ${{ github.triggering_actor }}"
+          echo "MR title:      ${{ github.event.pull_request.title }}"
+          echo "MR URL:        ${{ github.event.pull_request.html_url }}"
+
       - name: Checkout
         uses: actions/checkout@v3
 
