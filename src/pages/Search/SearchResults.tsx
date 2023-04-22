@@ -13,9 +13,6 @@ export const SearchResults = () => {
 
   useEffect(() => {
     searchBoilerplates(searchValue, technologies).then(setResults);
-    // searchBoilerplates(searchValue, technologies).then(({ hits }) => {
-    //   setResults(hits.map(({ document }) => document as Boilerplate))
-    // });
   }, [searchValue, technologies])
 
   return (

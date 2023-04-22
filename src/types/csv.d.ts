@@ -14,6 +14,7 @@ declare module '@/data/boilerplates.csv' {
     git?: string;
     version?: string;
     description: string;
+    usage: string;
   }>;
   export default src;
 }

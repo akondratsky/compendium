@@ -26,4 +26,8 @@ export const columnDefs: GridColDef<typeof boilerplates[number]>[] = [
     field: 'technologies',
     flex: 1,
   },
+  {
+    field: 'usage',
+    flex: 2
+  },
 ];
