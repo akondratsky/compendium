@@ -1,6 +1,6 @@
 name;website;git;technologies;version;description
 
 Vitesse;  ;;vite;1.1;  Opinionated starter template 2 Som elensegsegseg...aaaaaaaa
-Vitesse;  ;https://github.com/antfu/vitesse;vite;1.0;  Opinionated starter template
+Vitesse;  ;https://github.com/antfu/vitesse;vite;1.0;  Opinionated starter template 333
 
 vite-ts-tailwind-starter;;https://github.com/Uninen/vite-ts-tailwind-starter;typescript,tailwindcss,cypress,ci;;1234567890
