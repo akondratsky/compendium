@@ -37,7 +37,7 @@ export const EditDialog = () => {
   };
 
   return (
-    <Dialog onClose={() => setIsOpen(false)} open={isOpen}>
+    <Dialog open={isOpen}>
       <DialogContent sx={{ minWidth: 500 }}>
         <Grid container direction="column" sx={{ width: 500 }}>
           <Prop field="name" disabled={!boilerplate.isNew} />

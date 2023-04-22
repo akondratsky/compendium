@@ -8,6 +8,10 @@ vue;          Vue
 vanillajs;    Vanilla
 electron;     Electron
 
+# CLI
+Angular CLI
+Create React App (CRA)
+
 # state managers
 redux;        Redux
 mobx;         MobX
@@ -40,3 +44,7 @@ cypress;
 
 # Automatization
 ci;
+
+# Approaches
+ssg;          SSG
+ssr;          SSR
