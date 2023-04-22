@@ -19,11 +19,17 @@ Create React App (CRA)
 redux;        Redux
 mobx;         MobX
 recoil;
+pinia;        Pinia
+
+# routing
+vue-router
 
 # CSS / styling
 tailwindcss;  Tailwind CSS
 scss;         SCSS
+less;         Less
 css;          CSS
+unocss;       Unocss
 
 # Build
 vite;         Vite
@@ -41,13 +47,27 @@ playwright;   Playwright
 typescript;
 javascript;
 
+# Linting
+eslint;       ESLint
+prettier;     Prettier
 
 # Testing
 cypress;
 
+# UI Frameworks and components
+element-plus; Element Plus
+open-tiny;    OpenTiny (Tiny Vue)
+ant-design;   Ant Design Vue
+vuetify;      Vuetify
+naive ui;     Naive UI
+devui;        DevUI
+arco-design;  Arco Design
+tdesign;      TDesign
+vant;         Vant
 
 # Automatization
 ci;
+husky;
 
 # Approaches
 ssg;          SSG
