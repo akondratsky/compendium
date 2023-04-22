@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import technologiesCsv from '@/data/technologies.csv';
 import boilerplatesCsv from '@/data/boilerplates.csv';
-import { DESCRIPTION_MIN_LENGTH, urlRegex } from '@/data/validation';
+import { DESCRIPTION_MIN_LENGTH, USAGE_MIN_LENGTH, urlRegex } from '@/data/validation';
 
 describe('technologies.csv', () => {
   const technologiesEntries: Array<[string, string | null]> = technologiesCsv.map(t => [t.name, t.label]);
@@ -19,9 +19,10 @@ describe('boilerplates.csv', () => {
     b.git,
     b.website,
     b.description,
+    b.usage,
   ] as const);
 
-  describe.each(boilerplateEntries)('boilerplate %s %s', (name, version, technologies, git, website, description) => {
+  describe.each(boilerplateEntries)('boilerplate %s %s', (name, version, technologies, git, website, description, usage) => {
     const getNameVersion = (name: string, version = '') => `${name}${version}`;
     const nameVersionArray = boilerplatesCsv.map(b => getNameVersion(b.name, b.version));
   
@@ -60,7 +61,11 @@ describe('boilerplates.csv', () => {
     });
 
     it(`contains description with at least ${DESCRIPTION_MIN_LENGTH} symbols length`, () => {
-      expect(description.length >= DESCRIPTION_MIN_LENGTH).toBeTruthy();
+      expect(description.length).toBeGreaterThanOrEqual(DESCRIPTION_MIN_LENGTH)
+    });
+    
+    it(`contains usage section with at least ${USAGE_MIN_LENGTH} symbols length`, () => {
+      expect(usage.length).toBeGreaterThanOrEqual(USAGE_MIN_LENGTH)
     });
 
     it('contains valid URL or nothing in git field', () => {

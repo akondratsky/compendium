@@ -16,7 +16,7 @@ const Section = ({ label, children }: PropsWithChildren<{ label: string }>) => {
 };
 
 export const FoundBoilerplate = ({ boilerplate }: { boilerplate: Boilerplate }) => {
-  const { name, description, technologies, git, version, website } = boilerplate;
+  const { name, description, technologies, git, version, website, usage } = boilerplate;
 
   return (
     <Card sx={{ mt: 2 }} variant="outlined">
@@ -24,11 +24,12 @@ export const FoundBoilerplate = ({ boilerplate }: { boilerplate: Boilerplate }) 
         <Typography marginBottom={3} variant="h5">
           {name}
         </Typography>
-        {description && (
-          <Section label="Description">
-            {description}
-          </Section>
-        )}
+        <Section label="Description">
+          {description}
+        </Section>
+        <Section label="Usage">
+          {usage}
+        </Section>
         {website && (
           <Section label="Website">
             <Link href={website}>{website}</Link>

@@ -19,7 +19,8 @@ export const EditDialog = () => {
       git: boilerplate.git,
       version: boilerplate.version,
       website: boilerplate.website,
-      technologies: selectedTechs.map(s => s.name).join(',')
+      technologies: selectedTechs.map(s => s.name).join(','),
+      usage: boilerplate.usage,
     });
     let newRows: typeof rows;
     if (boilerplate.isNew) {
@@ -41,6 +42,7 @@ export const EditDialog = () => {
         <Grid container direction="column" sx={{ width: 500 }}>
           <Prop field="name" disabled={!boilerplate.isNew} />
           <Prop field="description" multiline minRows={3} />
+          <Prop field="usage" multiline minRows={2} />
           <Prop field="git" />
           <Prop field="website" />
           <Prop field="version" />

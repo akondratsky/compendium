@@ -1,5 +1,5 @@
 import { Button, Grid, Typography } from '@mui/material';
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid, GridCsvExportOptions } from '@mui/x-data-grid';
 import { columnDefs } from './columnDefs';
 import { useCallback, useRef } from 'react';
 import { GridApiCommunity } from '@mui/x-data-grid/internals';
@@ -9,13 +9,12 @@ import { BoilerplateCsvRecord } from '@/types';
 import { getTechnologyOptions } from '@/components/TechnologiesInput';
 import { toast } from 'react-toastify';
 import { useChangesListener } from '@/services/changesListener';
-import { ExportButton } from './ExportButton';
 
-const gridCsvOptions = {
+const gridCsvOptions: GridCsvExportOptions = {
   delimiter: ';',
   fileName: 'boilerplates',
   // for the sake of keeping the same columns order:
-  fields: ['name', 'website', 'git', 'technologies', 'version', 'description'],
+  fields: ['name', 'website', 'git', 'technologies', 'version', 'description', 'usage'], 
 };
 
 export const BoilerplatesTable = () => {
@@ -30,14 +29,13 @@ export const BoilerplatesTable = () => {
 
   const tableRef = useRef<GridApiCommunity>({} as GridApiCommunity);
 
-  const exportHandler = useCallback(() => {
-    tableRef.current.exportDataAsCsv(gridCsvOptions);
-    toast.success('Successfully saved!');
-  }, []);
-
   const copyDataHandler = useCallback(async () => {
     const data = tableRef.current.getDataAsCsv(gridCsvOptions);
-    await navigator.clipboard.writeText(data);
+
+    await navigator.clipboard.writeText(
+      // it seems that 
+      data.replaceAll('""', '"')
+    );
     toast.success('Copied to clipboard');
   }, []);
 
@@ -47,7 +45,7 @@ export const BoilerplatesTable = () => {
     setIsDialogOpen(true);
   };
 
-  const editRow = ({ description, name, technologies, git, version, website }: BoilerplateCsvRecord) => {
+  const editRow = ({ description, name, technologies, git, version, website, usage }: BoilerplateCsvRecord) => {
     setEditorBoilerplate({
       description,
       isNew: false,
@@ -55,6 +53,7 @@ export const BoilerplatesTable = () => {
       git,
       version,
       website,
+      usage,
     });
     setEditorTechs(getTechnologyOptions(technologies.split(',')));
     setIsDialogOpen(true);
@@ -66,7 +65,14 @@ export const BoilerplatesTable = () => {
         <Typography sx={{ mt: 4 }}>
           Edit this and export table to CSV.
         </Typography>
-        <ExportButton onExport={exportHandler} onCopy={copyDataHandler} isAvailable={isTableChanged} />
+        <Button
+          sx={{ ml: 'auto' }}
+          variant={isTableChanged ? 'contained' : 'outlined'}
+          disabled={!isTableChanged}
+          onClick={copyDataHandler}
+        >
+          Copy CSV
+        </Button>
         <Button onClick={addRowHandler} variant="outlined" sx={{ ml: 2 }}>
           Add Boilerplate
         </Button>

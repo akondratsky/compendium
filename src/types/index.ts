@@ -6,6 +6,7 @@ export type BoilerplateCsvRecord = {
   git?: string;
   version?: string;
   description: string;
+  usage: string;
 };
 
 export type Boilerplate = {
@@ -14,6 +15,7 @@ export type Boilerplate = {
   git?: string;
   version?: string;
   description: string;
+  usage: string;
   technologies: string[];
 };
 
