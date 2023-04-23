@@ -1,6 +1,6 @@
 name;website;git;technologies;version;description;usage
-create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or "vanilla" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.;npm create electron-vite@latest projectName
-vitawind;https://vitawind.vercel.app/;https://github.com/huibizhang/vitawind;angular,react,vue,vanillajs,tailwindcss,css,svg,typescript,javascript,Create React App (CRA);v2;A scaffolding for projects with tailwindcss v3. Agnostic to the package manager. Has the templates with Vite for Vue and React (javascript and typescript), also supports create-react-app and Angular CLI.;"npm init vitawind test-project -- --{template}
+create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;"Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or ""vanilla"" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.";npm create electron-vite@latest projectName
+vitawind;https://vitawind.vercel.app/;https://github.com/huibizhang/vitawind;angular,react,vue,vanillajs,tailwindcss,css,svg,typescript,javascript,cra;v2;A scaffolding for projects with tailwindcss v3. Agnostic to the package manager. Has the templates with Vite for Vue and React (javascript and typescript), also supports create-react-app and Angular CLI.;"npm init vitawind test-project -- --{template}
 cd test-project
 npm install
 npm {script}
