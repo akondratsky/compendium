@@ -10,10 +10,20 @@ electron;     Electron
 svelte;       Svelte
 lit;          Lit
 preact;       Preact
+node;         Node
+solidjs;      SolidJS
+react-native; React Native
+expo;         Expo
+express;      Express
+nest;         Nest
+next;         Next
+vitepress;    VitePress
+ionic;        Ionic
 
 # CLI
-Angular CLI
-Create React App (CRA)
+angular-cli;  Angular CLI
+cra;          Create React App (CRA)
+nx;           Nx
 
 # state managers
 redux;        Redux
@@ -35,6 +45,9 @@ unocss;       Unocss
 vite;         Vite
 webpack;      Webpack
 swc;          SWC
+esbuild;      esbuild
+rollup;       Rollup
+rspack;       Rspack
 
 # Assets
 svg;          SVG
@@ -42,6 +55,7 @@ svg;          SVG
 # Testing
 e2e;          e2e
 playwright;   Playwright
+jest;         Jest
 
 # Languages
 typescript;
@@ -52,7 +66,12 @@ eslint;       ESLint
 prettier;     Prettier
 
 # Testing
-cypress;
+cypress;      Cypress
+detox;        Detox
+
+# Documents
+docusaurus;   Docusaurus
+storybook;    Storybook
 
 # UI Frameworks and components
 element-plus; Element Plus
@@ -64,11 +83,18 @@ devui;        DevUI
 arco-design;  Arco Design
 tdesign;      TDesign
 vant;         Vant
+stencil;      Stencil
+webcomponents;Web Components
 
 # Automatization
 ci;
 husky;
 
 # Approaches
-ssg;          SSG
-ssr;          SSR
+ssg;                SSG
+ssr;                SSR
+module-federation;  Module Federation
+
+# Clouds
+aws;          AWS
+gcp;          GCP
