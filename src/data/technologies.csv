@@ -7,20 +7,47 @@ react;        React
 vue;          Vue
 vanillajs;    Vanilla
 electron;     Electron
+svelte;       Svelte
+lit;          Lit
+preact;       Preact
+node;         Node
+solidjs;      SolidJS
+react-native; React Native
+expo;         Expo
+express;      Express
+nest;         Nest
+next;         Next
+vitepress;    VitePress
+ionic;        Ionic
+
+# CLI
+angular-cli;  Angular CLI
+cra;          Create React App (CRA)
+nx;           Nx
 
 # state managers
 redux;        Redux
 mobx;         MobX
 recoil;
+pinia;        Pinia
+
+# routing
+vue-router
 
 # CSS / styling
 tailwindcss;  Tailwind CSS
 scss;         SCSS
+less;         Less
 css;          CSS
+unocss;       Unocss
 
 # Build
 vite;         Vite
 webpack;      Webpack
+swc;          SWC
+esbuild;      esbuild
+rollup;       Rollup
+rspack;       Rspack
 
 # Assets
 svg;          SVG
@@ -28,15 +55,46 @@ svg;          SVG
 # Testing
 e2e;          e2e
 playwright;   Playwright
+jest;         Jest
 
 # Languages
 typescript;
 javascript;
 
+# Linting
+eslint;       ESLint
+prettier;     Prettier
 
 # Testing
-cypress;
+cypress;      Cypress
+detox;        Detox
 
+# Documents
+docusaurus;   Docusaurus
+storybook;    Storybook
+
+# UI Frameworks and components
+element-plus; Element Plus
+open-tiny;    OpenTiny (Tiny Vue)
+ant-design;   Ant Design Vue
+vuetify;      Vuetify
+naive ui;     Naive UI
+devui;        DevUI
+arco-design;  Arco Design
+tdesign;      TDesign
+vant;         Vant
+stencil;      Stencil
+webcomponents;Web Components
 
 # Automatization
 ci;
+husky;
+
+# Approaches
+ssg;                SSG
+ssr;                SSR
+module-federation;  Module Federation
+
+# Clouds
+aws;          AWS
+gcp;          GCP

@@ -15,6 +15,7 @@ const gridCsvOptions: GridCsvExportOptions = {
   fileName: 'boilerplates',
   // for the sake of keeping the same columns order:
   fields: ['name', 'website', 'git', 'technologies', 'version', 'description', 'usage'], 
+  getRowsToExport: ({ apiRef }) => apiRef.current.getAllRowIds(),
 };
 
 export const BoilerplatesTable = () => {

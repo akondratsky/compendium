@@ -1,2 +1,16 @@
 name;website;git;technologies;version;description;usage
-create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or "vanilla" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.;npm create electron-vite@latest projectName
+create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;"Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or ""vanilla"" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.";npm create electron-vite@latest projectName
+vitawind;https://vitawind.vercel.app/;https://github.com/huibizhang/vitawind;angular,react,vue,vanillajs,tailwindcss,css,svg,typescript,javascript,cra;v2;A scaffolding for projects with tailwindcss v3. Agnostic to the package manager. Has the templates with Vite for Vue and React (javascript and typescript), also supports create-react-app and Angular CLI.;"npm init vitawind test-project -- --{template}
+cd test-project
+npm install
+npm {script}
+
+Next tool can be used to generate installation commands for the vitawind:
+https://vitawind.vercel.app/scaffolding/creator"
+create-vite;https://vitejs.dev/guide/#scaffolding-your-first-vite-project;https://github.com/vitejs/vite/tree/main/packages/create-vite;react,vue,vanillajs,svelte,lit,preact,vite,swc,typescript,javascript;;"Default scaffolder for Vite. List of currently support templates: vanilla, vanilla-ts, vue, vue-ts, react, react-ts, react-swc, react-swc-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts.
+Also support community templates via degit.";npm create vite@latest my-vue-app -- --template {template}
+create-vite-app;;https://github.com/ErKeLost/create-vite-app;vue,vue-router,pinia,eslint,prettier,scss,less,element-plus,open-tiny,ant-design,vuetify,naive ui,devui,arco-design,tdesign,vant,unocss;;"Flexible and beautiful interactive CLI which allows to choose and switch a lot of packages and templates. It also includes a bunch of optional plugins to support JSX, legacy browser, PWA, to visualize rollup plugins and others. 
+Be ready to cross over comments and untranslated phrases in Chinese.";npx create-vite-template@latest
+nx;https://nx.dev/getting-started/intro;https://github.com/nrwl/nx;nx,react,angular,node,svelte,docusaurus,stencil,solidjs,react-native,cypress,storybook,detox,eslint,esbuild,expo,express,jest,javascript,typescript,rollup,rspack,vite,webcomponents,webpack,nest,next,vitepress,playwright,electron,aws,gcp,ionic,module-federation;;"Nx is a powerful open-source build system with first class monorepo support that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality.
+
+Nx includes a feature of a code generation with a looot of options via plugins. It may support even .Net!";npx create-nx-workspace@latest
