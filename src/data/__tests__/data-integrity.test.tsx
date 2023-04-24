@@ -6,8 +6,19 @@ import { DESCRIPTION_MIN_LENGTH, USAGE_MIN_LENGTH, urlRegex } from '@/data/valid
 describe('technologies.csv', () => {
   const technologiesEntries: Array<[string, string | null]> = technologiesCsv.map(t => [t.name, t.label]);
 
-  it.each(technologiesEntries)('technology %s has non-empty name', (name, label) => {
-    expect(name?.trim().length > 0).toBeTruthy();
+  describe.each(technologiesEntries)('technology %', (name, label) => {
+    it('has non-empty name', () => {
+      expect(name?.trim().length > 0).toBeTruthy();
+    });
+
+    it('has unique name', () => {
+      const techs = technologiesCsv.filter(t => t.name === name);
+      expect(techs.length).toBe(1);
+    });
+
+    it('has lowercase name', () => {
+      expect(name.toLowerCase()).toBe(name);
+    });
   });
 });
 
@@ -41,7 +52,7 @@ describe('boilerplates.csv', () => {
 
     it('has unique description', () => {
       const boilerplates = boilerplatesCsv.filter(b => b.description === description);
-      expect(boilerplates.length === 1).toBeTruthy()
+      expect(boilerplates.length).toBe(1);
     });
 
     it('has non-empty name', () => {
