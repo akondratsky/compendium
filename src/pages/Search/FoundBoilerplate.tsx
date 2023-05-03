@@ -42,7 +42,7 @@ export const FoundBoilerplate = ({ boilerplate }: { boilerplate: Boilerplate }) 
         )}
         {technologies.length > 0 && (
           <Section label="Technologies">
-            {technologies.map(tech => <Chip key={tech} label={tech} sx={{ mr: 1 }} />)}
+            {technologies.map(tech => <Chip key={tech} variant="outlined" label={tech} sx={{ mr: 1, mb: 1 }} />)}
           </Section>
         )}
         {version && (
