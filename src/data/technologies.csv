@@ -30,6 +30,10 @@ redux;        Redux
 mobx;         MobX
 recoil;
 pinia;        Pinia
+react query;  React Query
+
+# api
+axios
 
 # routing
 vue-router
@@ -75,10 +79,10 @@ stylelint;    Stylelint
 docusaurus;   Docusaurus
 storybook;    Storybook
 
-# UI Frameworks and components
+# UI Frameworks, design systems and components
 element-plus; Element Plus
 open-tiny;    OpenTiny (Tiny Vue)
-ant-design;   Ant Design Vue
+ant-design;   Ant Design
 vuetify;      Vuetify
 naive ui;     Naive UI
 devui;        DevUI
@@ -94,12 +98,20 @@ husky;
 lint-staged;
 github-actions;   GitHub Actions
 vercel;           Vercel
+pre-commit;
+
+# charts
+recharts;   
 
 # Approaches
 ssg;                SSG
 ssr;                SSR
-PWA;                PWA
+pwa;                PWA
 module-federation;  Module Federation
+
+# package managers
+pnpm;
+yarn;
 
 # Clouds
 aws;          AWS

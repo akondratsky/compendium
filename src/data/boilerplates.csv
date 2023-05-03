@@ -14,6 +14,14 @@ Be ready to cross over comments and untranslated phrases in Chinese.";npx create
 nx;https://nx.dev/getting-started/intro;https://github.com/nrwl/nx;nx,react,angular,node,svelte,docusaurus,stencil,solidjs,react-native,cypress,storybook,detox,eslint,esbuild,expo,express,jest,javascript,typescript,rollup,rspack,vite,webcomponents,webpack,nest,next,vitepress,playwright,electron,aws,gcp,ionic,module-federation;;"Nx is a powerful open-source build system with first class monorepo support that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality.
 
 Nx includes a feature of a code generation with a looot of options via plugins. It may support even .Net!";npx create-nx-workspace@latest
-vitamin;;https://github.com/wtchnm/Vitamin;react,typescript,aliases,tailwindcss,prettier,eslint,stylelint,husky,lint-staged,PWA,vitest,testing-library,cypress,github-actions,vercel;;Opinionated Vite starter template. Includes Tailwind CSS v3 with a basic reset for form styles and Prettier plugin to sort classes, unit and e2e testing, PWA, GitHub actions and deploy to vercel.com.;"npx degit wtchnm/Vitamin#main my-app
+vite-reactts-eslint-prettier;;https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier;react,vite,typescript,prettier,pre-commit,css,yarn;;Vite + React + Typescript + Eslint + Prettier;"npx degit TheSwordBreaker/vite-reactts-eslint-prettier project-name
+cd project-name
+yarn install
+yarn dev"
+vitamin;;https://github.com/wtchnm/Vitamin;react,tailwindcss,aliases,testing-library,cypress,vitest,typescript,eslint,prettier,stylelint,husky,lint-staged,github-actions,vercel,pwa,pnpm,vite;;Opinionated Vite starter template. Includes Tailwind CSS v3 with a basic reset for form styles and Prettier plugin to sort classes, unit and e2e testing, PWA, GitHub actions and deploy to vercel.com.;"npx degit wtchnm/Vitamin#main my-app
 cd my-app
 pnpm install"
+react-vite-admin;;https://github.com/ychengcloud/react-vite-admin;react,recoil,react query,less,css,vite,aliases,typescript,ant-design,yarn,recharts;;"This Starter utilizes React, Recoil, React Query, React Hooks, Typescript, Axios And Vite.
+It seems pretty raw, contains example with an unused code and packages.";"git clone https://github.com/ychengcloud/react-vite-admin.git
+ cd react-vite-admin
+ yarn install"
