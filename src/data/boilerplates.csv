@@ -1,5 +1,5 @@
 name;website;git;technologies;version;description;usage
-create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;"Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or ""vanilla"" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.";npm create electron-vite@latest projectName
+create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or "vanilla" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.;npm create electron-vite@latest projectName
 vitawind;https://vitawind.vercel.app/;https://github.com/huibizhang/vitawind;angular,react,vue,vanillajs,tailwindcss,css,svg,typescript,javascript,cra;v2;A scaffolding for projects with tailwindcss v3. Agnostic to the package manager. Has the templates with Vite for Vue and React (javascript and typescript), also supports create-react-app and Angular CLI.;"npm init vitawind test-project -- --{template}
 cd test-project
 npm install
@@ -14,3 +14,6 @@ Be ready to cross over comments and untranslated phrases in Chinese.";npx create
 nx;https://nx.dev/getting-started/intro;https://github.com/nrwl/nx;nx,react,angular,node,svelte,docusaurus,stencil,solidjs,react-native,cypress,storybook,detox,eslint,esbuild,expo,express,jest,javascript,typescript,rollup,rspack,vite,webcomponents,webpack,nest,next,vitepress,playwright,electron,aws,gcp,ionic,module-federation;;"Nx is a powerful open-source build system with first class monorepo support that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality.
 
 Nx includes a feature of a code generation with a looot of options via plugins. It may support even .Net!";npx create-nx-workspace@latest
+vitamin;;https://github.com/wtchnm/Vitamin;react,typescript,aliases,tailwindcss,prettier,eslint,stylelint,husky,lint-staged,PWA,vitest,testing-library,cypress,github-actions,vercel;;Opinionated Vite starter template. Includes Tailwind CSS v3 with a basic reset for form styles and Prettier plugin to sort classes, unit and e2e testing, PWA, GitHub actions and deploy to vercel.com.;"npx degit wtchnm/Vitamin#main my-app
+cd my-app
+pnpm install"

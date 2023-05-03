@@ -48,14 +48,19 @@ swc;          SWC
 esbuild;      esbuild
 rollup;       Rollup
 rspack;       Rspack
+aliases;      import aliases
 
 # Assets
 svg;          SVG
 
 # Testing
-e2e;          e2e
-playwright;   Playwright
-jest;         Jest
+e2e;              e2e
+testing-library;  testing-library
+playwright;       Playwright
+jest;             Jest
+cypress;          Cypress
+detox;            Detox
+vitest;
 
 # Languages
 typescript;
@@ -64,10 +69,7 @@ javascript;
 # Linting
 eslint;       ESLint
 prettier;     Prettier
-
-# Testing
-cypress;      Cypress
-detox;        Detox
+stylelint;    Stylelint
 
 # Documents
 docusaurus;   Docusaurus
@@ -86,13 +88,17 @@ vant;         Vant
 stencil;      Stencil
 webcomponents;Web Components
 
-# Automatization
+# Automatization & deploy
 ci;
 husky;
+lint-staged;
+github-actions;   GitHub Actions
+vercel;           Vercel
 
 # Approaches
 ssg;                SSG
 ssr;                SSR
+PWA;                PWA
 module-federation;  Module Federation
 
 # Clouds
