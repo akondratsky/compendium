@@ -1,4 +1,4 @@
-# Compendium 
+# Awesome Boilerplate Compendium
 
 Welcome to Compendium!
 
