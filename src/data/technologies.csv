@@ -100,6 +100,7 @@ lint-staged;
 github-actions;   GitHub Actions
 vercel;           Vercel
 pre-commit;
+rome;             Rome
 
 # charts
 recharts;   
@@ -109,6 +110,9 @@ ssg;                SSG
 ssr;                SSR
 pwa;                PWA
 module-federation;  Module Federation
+
+# Security
+https;              HTTPS
 
 # package managers
 pnpm;

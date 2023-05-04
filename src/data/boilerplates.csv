@@ -32,3 +32,10 @@ git add .
 git commit -m commit-name
 npm i
 npm start"
+vitejs-template-react-rescript;;https://github.com/jihchi/vitejs-template-react-rescript;react,vite,testing-library,vitest,rescript,css;;Integrating ReScript and rescript-react into the official Vite React template;"npx degit jihchi/vitejs-template-react-rescript my-vitejs-react-rescript
+cd my-vitejs-react-rescript
+npm i
+npm start"
+template-vite-react;;https://github.com/lzm0x219/template-vite-react;react,typescript,pnpm,tailwindcss,prettier,vite,https,husky,lint-staged,rome;;A minimal React Vite starter template. Includes HTTPS support for local development (vite-plugin-mkcert is used).;"npx degit lzm0x219/template-vite-react myapp
+cd myapp
+git init"
