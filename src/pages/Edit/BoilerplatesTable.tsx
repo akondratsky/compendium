@@ -18,6 +18,10 @@ const gridCsvOptions: GridCsvExportOptions = {
   getRowsToExport: ({ apiRef }) => apiRef.current.getAllRowIds(),
 };
 
+const LS_PAGESIZE_KEY = 'edit_table_initial_page_size';
+
+const initialPageSize = Number(localStorage.getItem(LS_PAGESIZE_KEY)) || 10;
+
 export const BoilerplatesTable = () => {
   const [rows] = useRecoilState(boilerplatesTableState);
   const setIsDialogOpen = useSetRecoilState(isEditDialogOpen);
@@ -27,6 +31,8 @@ export const BoilerplatesTable = () => {
   const setEditorTechs = useSetRecoilState(technologiesEditorState);
   const isTableChanged = useRecoilValue(changesState);
   useChangesListener();
+
+  
 
   const tableRef = useRef<GridApiCommunity>({} as GridApiCommunity);
 
@@ -89,8 +95,11 @@ export const BoilerplatesTable = () => {
           }}
           initialState={{
             pagination: {
-              paginationModel: { pageSize: 10 }
+              paginationModel: { pageSize: initialPageSize }
             }
+          }}
+          onPaginationModelChange={({ pageSize }) => {
+            localStorage.setItem(LS_PAGESIZE_KEY, String(pageSize))
           }}
           pageSizeOptions={[10, 25, 50, 100]}
           columns={columnDefs}

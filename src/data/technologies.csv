@@ -69,6 +69,7 @@ vitest;
 # Languages
 typescript;
 javascript;
+rescript;
 
 # Linting
 eslint;       ESLint

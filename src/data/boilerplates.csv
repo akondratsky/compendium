@@ -25,3 +25,10 @@ react-vite-admin;;https://github.com/ychengcloud/react-vite-admin;react,recoil,r
 It seems pretty raw, contains example with an unused code and packages.";"git clone https://github.com/ychengcloud/react-vite-admin.git
  cd react-vite-admin
  yarn install"
+vite-template-react;;https://github.com/SafdarJamal/vite-template-react;react,css,vite;;It really resemble vite default project. Official description: "A Create React App-like template.";"git clone https://github.com/SafdarJamal/vite-template-react.git
+cd vite-template-react
+rm -rf .git && git init && npm init
+git add .
+git commit -m commit-name
+npm i
+npm start"
