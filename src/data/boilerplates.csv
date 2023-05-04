@@ -39,3 +39,6 @@ npm start"
 template-vite-react;;https://github.com/lzm0x219/template-vite-react;react,typescript,pnpm,tailwindcss,prettier,vite,https,husky,lint-staged,rome;;A minimal React Vite starter template. Includes HTTPS support for local development (vite-plugin-mkcert is used).;"npx degit lzm0x219/template-vite-react myapp
 cd myapp
 git init"
+reactjs-vite-tailwindcss-boilerplate;;https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate;vite,react,typescript,vitest,testing-library,tailwindcss,eslint,prettier,pnpm,aliases;;This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.;"npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+cd my-app
+pnpm install"
