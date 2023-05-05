@@ -46,3 +46,19 @@ vite-reactts18-chakra-jest-husky;;https://github.com/The24thDS/vite-reactts18-ch
 cd my-app
 git init
 yarn install && yarn dev"
+react-ts-vite-template;;https://github.com/fabien-ml/react-ts-vite-template;react,css modules,vite,e2e,testing-library,jest,cypress,typescript,eslint,prettier,npm;;This is a React + TypeScript boilerplate built with Vite.;"npx degit fabien-ml/react-ts-vite-template my-app
+cd my-app
+git init
+npm install"
+vite-reactts-tailwind-rtk-eslint;;https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint;react,vite,typescript,tailwindcss,redux,redux-toolkit;;This is a React + TypeScript + Tailwind + RTK + eslint boilerplate built with Vite.;"git clone https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint
+cd vite-reactts-tailwind-rtk-eslint
+rm -rf .git
+git init
+npm i
+npm run dev"
+ vite-react-tailwind-template;;https://github.com/Innei/vite-react-tailwind-template;vite,react,eslint,prettier,husky,lint-staged,tailwindcss,pnpm,typescript;;Vite React Tailwind Template;"git clone https://github.com/Innei/vite-react-tailwind-template my-app
+cd my-app
+rm -rf .git
+git init
+pnpm i
+pnpm dev"

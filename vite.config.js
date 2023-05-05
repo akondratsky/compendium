@@ -55,7 +55,10 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: '/compendium/',
-    server: { hmr: true },
+    server: {
+      hmr: true,
+      port: 5666,
+    },
     plugins: [
       react({
         include: ['**/*.tsx', '**/*.ts'],

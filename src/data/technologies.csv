@@ -29,8 +29,9 @@ nx;           Nx
 redux;        Redux
 mobx;         MobX
 recoil;
-pinia;        Pinia
-react query;  React Query
+pinia;          Pinia
+react query;    React Query
+redux-toolkit;  Redux Toolkit
 
 # api
 axios
@@ -44,6 +45,7 @@ scss;         SCSS
 less;         Less
 css;          CSS
 unocss;       Unocss
+css modules;  CSS modules
 
 # Build
 vite;         Vite
@@ -120,6 +122,7 @@ https;              HTTPS
 # package managers
 pnpm;
 yarn;
+npm;
 
 # Clouds
 aws;          AWS
