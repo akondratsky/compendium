@@ -77,21 +77,23 @@ prettier;     Prettier
 stylelint;    Stylelint
 
 # Documents
-docusaurus;   Docusaurus
-storybook;    Storybook
+docusaurus;     Docusaurus
+storybook;      Storybook
 
 # UI Frameworks, design systems and components
-element-plus; Element Plus
-open-tiny;    OpenTiny (Tiny Vue)
-ant-design;   Ant Design
-vuetify;      Vuetify
-naive ui;     Naive UI
-devui;        DevUI
-arco-design;  Arco Design
-tdesign;      TDesign
-vant;         Vant
-stencil;      Stencil
-webcomponents;Web Components
+element-plus;   Element Plus
+open-tiny;      OpenTiny (Tiny Vue)
+ant-design;     Ant Design
+vuetify;        Vuetify
+naive ui;       Naive UI
+devui;          DevUI
+arco-design;    Arco Design
+tdesign;        TDesign
+vant;           Vant
+stencil;        Stencil
+webcomponents;  Web Components
+chakra-ui;      Chakra UI
+framer-motion;  Framer Motion
 
 # Automatization & deploy
 ci;
@@ -101,6 +103,7 @@ github-actions;   GitHub Actions
 vercel;           Vercel
 pre-commit;
 rome;             Rome
+commitizen;       commitizen (cz)
 
 # charts
 recharts;   

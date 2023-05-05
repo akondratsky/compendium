@@ -42,3 +42,7 @@ git init"
 reactjs-vite-tailwindcss-boilerplate;;https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate;vite,react,typescript,vitest,testing-library,tailwindcss,eslint,prettier,pnpm,aliases;;This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.;"npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
 cd my-app
 pnpm install"
+vite-reactts18-chakra-jest-husky;;https://github.com/The24thDS/vite-reactts18-chakra-jest-husky;react,vite,testing-library,jest,typescript,eslint,prettier,chakra-ui,husky,yarn,commitizen;;This is a React 18 + TypeScript + Chakra UI boilerplate to be built with Vite. It also includes Husky and a pre-commit hook that runs yarn format.;"npx degit The24thDS/vite-reactts18-chakra-jest-husky my-app
+cd my-app
+git init
+yarn install && yarn dev"
