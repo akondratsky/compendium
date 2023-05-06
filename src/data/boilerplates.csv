@@ -101,7 +101,6 @@ This include React+TS with familiar pre-setup tooling
 Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
 This is the official Vite template(npm init vite@latest myapp -- --template react-ts) and some extended setup.";npx degit laststance/vite-rtk-query myapp
 vite-react-proste;;https://github.com/xyhxx/vite-react-proste;react,vite,typescript,react router,axios,scss,vitest,testing-library,react-query,eslint,stylelint,cypress,react-error-boundary,aliases,commitlint,commitizen,conventional changelog,prettier,lint-staged;;Simple, convenient, out of the box, using vite's react template;Clone this repo, like git clone https://github.com/xyhxx/vite-react-proste.git. In addition, you can click "Use this template" to copy this template to your repositories
-react-pwa;;https://github.com/suren-atoyan/react-pwa;vite,react,typescript,react router,mui,recoil,notifications,pwa,eslint,prettier,husky,lint-staged,https,npm,notistack;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;
 vite-react-ts-minimal-template;;https://github.com/alessandropisu/vite-react-ts-minimal-template;react,vite,typescript,husky,eslint,prettier;;A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦;"npx degit alessandropisu/vite-react-ts-minimal-template my-app
 cd my-app
 git init
@@ -116,3 +115,17 @@ viact;;https://github.com/MR-Mostafa/Viact;vite,react,react router,typescript,un
 cd Viact
 yarn install
 yarn run reset"
+viterts;;https://github.com/erdoganbulut/viterts/;react,vite,typescript,react router,redux-toolkit,ant-design,jest,eslint,prettier,scss,css modules;;Viterts. Opinionated template;"npx degit erdoganbulut/viterts my-viterts-app
+cd my-viterts-app
+yarn # If you don't have yarn installed, run: npm install -g yarn"
+viterc;;https://github.com/potreco/viterc;vite,react,typescript,eslint,prettier,husky,jest,aliases,commitlint,commitizen;;A minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier, Testing with Jest and Git hooks with Husky out of the box;"npx degit potreco/viterc my-app
+cd my-app
+git init
+yarn install
+yarn dev"
+vrttv;;https://github.com/Drumpy/vrttv-boilerplate;vite,react,react router,typescript,tailwindcss,prettier,eslint,husky,pre-commit,lint-staged,conventional commits,github-actions,vercel,commitlint,postcss;;"Are you tired of always creating the same structure from scratch for your projects? Me too.
+
+This is my go-to when I start a new project on front-end development.
+
+If you found it useful somehow, I would be grateful if you could leave a star in the project's GitHub repository";npx degit Drumpy/vrttv-boilerplate your-folder-name
+react-pwa;;https://github.com/suren-atoyan/react-pwa;react,recoil,react router,vite,typescript,eslint,prettier,mui,notifications,notistack,husky,lint-staged,pwa,https,npm;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;<git clone> or use as template

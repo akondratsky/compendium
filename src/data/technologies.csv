@@ -160,6 +160,7 @@ rome;                   Rome
 commitizen;             commitizen (cz)
 commitlint;
 conventional changelog;
+conventional commits;
 github pages;           GitHub Pages
 all-contributors-cli;
 make;
