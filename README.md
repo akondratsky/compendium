@@ -2,13 +2,13 @@
 
 Welcome to Compendium!
 
-This project is an attempt-in-progress to collect and systematize the most popular boilerplates and code generators which may speed up front-end developers. The website is deployed on GitHub pages:
+This project is an experiment and attempt-in-progress to collect and systematize some of the most popular boilerplates and code generators which may speed up front-end developers. The website is deployed on GitHub pages:
 
 https://akondratsky.github.io/compendium/
 
-Just a few templates were added, but much more will be there soon! 
-
 ## How to Contribute
+
+> I would say that this is for me, not for you.
 
 All the data is hardcoded and placed two files under `src/data` folder:
 

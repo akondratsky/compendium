@@ -19,6 +19,9 @@ nest;         Nest
 next;         Next
 vitepress;    VitePress
 ionic;        Ionic
+remix;        Remix
+gatsby;       Gatsby
+blitz;        Blitz
 
 # CLI
 angular-cli;  Angular CLI
@@ -27,12 +30,28 @@ nx;           Nx
 
 # state managers
 redux;        Redux
+zustand;
 mobx;         MobX
+valtio;
 recoil;
-pinia;        Pinia
+jotai;
+pinia;          Pinia
+redux-toolkit;  Redux Toolkit
+xstate;
+robot;
+redux-persist
+
+
+# api
+axios;
+ky;
+react-query;    React Query
+swr;            SWR
+rtkquery;       RTKQuery
 
 # routing
-vue-router
+vue-router;
+react router; React Router
 
 # CSS / styling
 tailwindcss;  Tailwind CSS
@@ -40,6 +59,15 @@ scss;         SCSS
 less;         Less
 css;          CSS
 unocss;       Unocss
+css modules;  CSS modules
+fela;
+clsx;
+classnames;
+daisyui;      daisyUI
+linaria;
+emotion;
+postcss;      PostCSS
+styled-components;  Styled-Components
 
 # Build
 vite;         Vite
@@ -48,53 +76,151 @@ swc;          SWC
 esbuild;      esbuild
 rollup;       Rollup
 rspack;       Rspack
+aliases;      import aliases
 
 # Assets
 svg;          SVG
+svgr;         SVGR
 
 # Testing
-e2e;          e2e
-playwright;   Playwright
-jest;         Jest
+e2e;              e2e
+testing-library;  testing-library
+playwright;       Playwright
+jest;             Jest
+cypress;          Cypress
+detox;            Detox
+vitest;
+codecov;          Codecov
+react-hooks-testing-library;
+
+# mock servers
+msw;              Mock Service Worker (MSW)
+json-server;
+fakestoreapi;     Fake Store API
 
 # Languages
 typescript;
 javascript;
+rescript;
+reason;
 
 # Linting
 eslint;       ESLint
 prettier;     Prettier
-
-# Testing
-cypress;      Cypress
-detox;        Detox
+stylelint;    Stylelint
 
 # Documents
-docusaurus;   Docusaurus
-storybook;    Storybook
+docusaurus;     Docusaurus
+storybook;      Storybook
+ladle;          Ladle
+mdx;            MDX
+json feeds;     JSON Feed
 
-# UI Frameworks and components
-element-plus; Element Plus
-open-tiny;    OpenTiny (Tiny Vue)
-ant-design;   Ant Design Vue
-vuetify;      Vuetify
-naive ui;     Naive UI
-devui;        DevUI
-arco-design;  Arco Design
-tdesign;      TDesign
-vant;         Vant
-stencil;      Stencil
-webcomponents;Web Components
+# UI Frameworks, design systems and components
+element-plus;   Element Plus
+open-tiny;      OpenTiny (Tiny Vue)
+ant-design;     Ant Design
+vuetify;        Vuetify
+naive ui;       Naive UI
+devui;          DevUI
+arco-design;    Arco Design
+tdesign;        TDesign
+vant;           Vant
+stencil;        Stencil
+webcomponents;  Web Components
+chakra-ui;      Chakra UI
+framer-motion;  Framer Motion
+headlessui;
+mui;            MUI
+rfs;            RFS
 
-# Automatization
+# icons
+react-icons;    
+heroicons;
+gitmoji;
+
+# Forms
+react-hook-form;  React Hook Form
+
+# Validation
+zod;              Zod
+prop-types;
+
+# utils && accessories
+react-error-boundary;
+notifications;
+notistack;
+bcrypt.js;
+crypto-js;
+jsonwebtoken;
+express-async-handler;
+unplugin-auto-import;
+localforage;
+lodash;
+devcontainer;
+
+
+# date manipulation
+dayjs;
+date-fns;
+luxon;          Luxon
+
+# Automatization & deploy
 ci;
 husky;
+lint-staged;
+github-actions;         GitHub Actions
+vercel;                 Vercel
+pre-commit;
+rome;                   Rome
+commitizen;             commitizen (cz)
+commitlint;
+conventional changelog;
+conventional commits;
+github pages;           GitHub Pages
+all-contributors-cli;
+make;
+codeql;                 CodeQL Analysis
+semantic-release;
+release-please;
+czg;
+pretty-quick;
 
-# Approaches
+# updates
+renovate;
+depfu;
+
+# charts
+recharts;   
+
+# Approaches / architectures
 ssg;                SSG
 ssr;                SSR
+pwa;                PWA
 module-federation;  Module Federation
+islands;            Islands
+atomic design;      Atomic Design
+chrome extension;   Chrome Extension
+
+# Security
+https;              HTTPS
+
+# package managers
+pnpm;
+yarn;
+npm;
+yarpm;
+corepack;
+
+# i18n
+react-intl;
 
 # Clouds
-aws;          AWS
-gcp;          GCP
+aws;                AWS
+gcp;                GCP
+firebase;           Firebase
+firebaseauth;       Firebase Authentication
+cloudflare workers; Clourflare Workers
+
+# databases
+mongoose;

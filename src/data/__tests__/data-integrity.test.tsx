@@ -42,12 +42,8 @@ describe('boilerplates.csv', () => {
       expect(techs.length > 0).toBeTruthy()
     });
 
-    it('does not contain technologies out of the technologies.csv file', () => {
-      const techs = technologies.split(',');
-      const actual = techs.every((tech) => {
-        return technologiesCsv.some(t => t.name === tech);
-      });
-      expect(actual).toBeTruthy();
+    it.each(technologies.split(','))('does not contain technologies out of the technologies.csv file: %s', (tech) => {
+      expect(technologiesCsv.some(t => t.name === tech)).toBeTruthy();
     });
 
     it('has unique description', () => {

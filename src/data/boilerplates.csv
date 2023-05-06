@@ -1,5 +1,5 @@
 name;website;git;technologies;version;description;usage
-create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;"Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or ""vanilla"" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.";npm create electron-vite@latest projectName
+create-electron-vite;;https://github.com/electron-vite/create-electron-vite;react,vue,vanillajs,electron,scss,css,svg,playwright,typescript;;Boilerplate for Electron, agnostic to package manager, to start applications based on Vue, React or "vanilla" typescript. React template is delivered with SCSS, Vue and vanilla with regular CSS.;npm create electron-vite@latest projectName
 vitawind;https://vitawind.vercel.app/;https://github.com/huibizhang/vitawind;angular,react,vue,vanillajs,tailwindcss,css,svg,typescript,javascript,cra;v2;A scaffolding for projects with tailwindcss v3. Agnostic to the package manager. Has the templates with Vite for Vue and React (javascript and typescript), also supports create-react-app and Angular CLI.;"npm init vitawind test-project -- --{template}
 cd test-project
 npm install
@@ -14,3 +14,161 @@ Be ready to cross over comments and untranslated phrases in Chinese.";npx create
 nx;https://nx.dev/getting-started/intro;https://github.com/nrwl/nx;nx,react,angular,node,svelte,docusaurus,stencil,solidjs,react-native,cypress,storybook,detox,eslint,esbuild,expo,express,jest,javascript,typescript,rollup,rspack,vite,webcomponents,webpack,nest,next,vitepress,playwright,electron,aws,gcp,ionic,module-federation;;"Nx is a powerful open-source build system with first class monorepo support that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality.
 
 Nx includes a feature of a code generation with a looot of options via plugins. It may support even .Net!";npx create-nx-workspace@latest
+vite-reactts-eslint-prettier;;https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier;react,vite,typescript,prettier,pre-commit,css,yarn;;Vite + React + Typescript + Eslint + Prettier;"npx degit TheSwordBreaker/vite-reactts-eslint-prettier project-name
+cd project-name
+yarn install
+yarn dev"
+vitamin;;https://github.com/wtchnm/Vitamin;react,tailwindcss,aliases,testing-library,cypress,vitest,typescript,eslint,prettier,stylelint,husky,lint-staged,github-actions,vercel,pwa,pnpm,vite;;Opinionated Vite starter template. Includes Tailwind CSS v3 with a basic reset for form styles and Prettier plugin to sort classes, unit and e2e testing, PWA, GitHub actions and deploy to vercel.com.;"npx degit wtchnm/Vitamin#main my-app
+cd my-app
+pnpm install"
+react-vite-admin;;https://github.com/ychengcloud/react-vite-admin;react,recoil,react-query,less,css,vite,aliases,typescript,ant-design,yarn,recharts;;"This Starter utilizes React, Recoil, React Query, React Hooks, Typescript, Axios And Vite.
+It seems pretty raw, contains example with an unused code and packages.";"git clone https://github.com/ychengcloud/react-vite-admin.git
+ cd react-vite-admin
+ yarn install"
+vite-template-react;;https://github.com/SafdarJamal/vite-template-react;react,css,vite;;It really resemble vite default project. Official description: "A Create React App-like template.";"git clone https://github.com/SafdarJamal/vite-template-react.git
+cd vite-template-react
+rm -rf .git && git init && npm init
+git add .
+git commit -m commit-name
+npm i
+npm start"
+vitejs-template-react-rescript;;https://github.com/jihchi/vitejs-template-react-rescript;react,vite,testing-library,vitest,rescript,css;;Integrating ReScript and rescript-react into the official Vite React template;"npx degit jihchi/vitejs-template-react-rescript my-vitejs-react-rescript
+cd my-vitejs-react-rescript
+npm i
+npm start"
+template-vite-react;;https://github.com/lzm0x219/template-vite-react;react,typescript,pnpm,tailwindcss,prettier,vite,https,husky,lint-staged,rome;;A minimal React Vite starter template. Includes HTTPS support for local development (vite-plugin-mkcert is used).;"npx degit lzm0x219/template-vite-react myapp
+cd myapp
+git init"
+reactjs-vite-tailwindcss-boilerplate;;https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate;vite,react,typescript,vitest,testing-library,tailwindcss,eslint,prettier,pnpm,aliases;;This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.;"npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+cd my-app
+pnpm install"
+vite-reactts18-chakra-jest-husky;;https://github.com/The24thDS/vite-reactts18-chakra-jest-husky;react,vite,testing-library,jest,typescript,eslint,prettier,chakra-ui,husky,yarn,commitizen;;This is a React 18 + TypeScript + Chakra UI boilerplate to be built with Vite. It also includes Husky and a pre-commit hook that runs yarn format.;"npx degit The24thDS/vite-reactts18-chakra-jest-husky my-app
+cd my-app
+git init
+yarn install && yarn dev"
+react-ts-vite-template;;https://github.com/fabien-ml/react-ts-vite-template;react,css modules,vite,e2e,testing-library,jest,cypress,typescript,eslint,prettier,npm;;This is a React + TypeScript boilerplate built with Vite.;"npx degit fabien-ml/react-ts-vite-template my-app
+cd my-app
+git init
+npm install"
+vite-reactts-tailwind-rtk-eslint;;https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint;react,vite,typescript,tailwindcss,redux,redux-toolkit;;This is a React + TypeScript + Tailwind + RTK + eslint boilerplate built with Vite.;"git clone https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint
+cd vite-reactts-tailwind-rtk-eslint
+rm -rf .git
+git init
+npm i
+npm run dev"
+vite-react-tailwind-template;;https://github.com/Innei/vite-react-tailwind-template;vite,react,eslint,prettier,husky,lint-staged,tailwindcss,pnpm,typescript;;Vite React Tailwind Template;"git clone https://github.com/Innei/vite-react-tailwind-template my-app
+cd my-app
+rm -rf .git
+git init
+pnpm i
+pnpm dev"
+tropical;https://tropical.js.org/;https://github.com/bensmithett/tropical;react,fela,vite,ladle,mdx,json feeds,islands,yarpm;;Fast, mostly-just-HTML static sites with islands of client-side JS. Read the website for additional information.;"Should be used as template repo, or just:
+git clone https://github.com/bensmithett/tropical my-app
+rm -rf .git
+git init"
+stratival;;https://github.com/rizkimcitra/stravital;vite,yarn,react,tailwindcss,typescript,eslint,prettier,conventional changelog,husky,lint-staged,aliases,clsx,react-icons;;Kickstart your Web Application with React 18, Vite and Tailwind CSS.;"git clone https://github.com/rizkimcitra/stravital
+cd stratival
+yarn install && yarn dev"
+vite-react-ts-tailwind-firebase-starter;;https://github.com/TeXmeijin/vite-react-ts-tailwind-firebase-starter;vite,react,typescript,tailwindcss,prettier,daisyui,firebase,aliases,headlessui,renovate,eslint;;Starter using Vite + React + TypeScript + Tailwind with Firebase.;git clone
+uchihamalolan/vite-react-ts;;https://github.com/uchihamalolan/vite-react-ts;react,vite,typescript,jest,testing-library,eslint,prettier,tailwindcss,aliases,lint-staged,husky;;"Drop-in Replacement for CRA but powered by Vite
+- Import SVG's directly as React Component via SVGR
+- Unit Testing via Jest & React Testing Library
+- ESLint Rules & Prettier
+- Tailwind
+- Absolute imports within src directory";npx degit uchihamalolan/vite-react-ts your-app-name
+vite-react-ts-ghactions-template;;https://github.com/pchmn/vite-react-ts-ghactions-template;react,vite,typescript,vitest,testing-library,github-actions,github pages,eslint,prettier,husky,commitlint,lint-staged,codecov;;This a React 18 + TypeScript + Vitest and React Testing Library + GitHub Actions starter template built with Vite 4.;"npx degit pchmn/vite-react-ts-ghactions-template app_name
+cd app_name
+pnpm i
+pnpm dev"
+vital;;https://github.com/jvidalv/vital;react,tailwindcss,css modules,vite,aliases,jest,typescript,heroicons,commitlint;;"Vite with React 18, typescript and tailwind.
+Go to Netlify and select your repository, OK along the way, and your App will be live in a minute.";"npx degit jvidalv/vital my-vital-app
+cd my-vital-app
+yarn"
+template-vite-react-tailwind-v3;;https://github.com/huibizhang/template-vite-react-tailwind-v3;react,css,vite,javascript,tailwindcss;;React 17 + TailwindCSS;git clone
+template-vite-react-ts-tailwind-v3;;https://github.com/huibizhang/template-vite-react-ts-tailwind-v3;react,vite,typescript,tailwindcss,prettier;;"template of: vite + react + typescript
+tailwindcss: v3.x";git clone
+vite-react-starter;;https://github.com/coderfabri/vite-react-starter;vite,react,tailwindcss,eslint,prettier,scss,emotion,jest,testing-library,react router,stylelint,prop-types,pnpm;;"Opinionated Vite starter template.
+
+An starter template for Vite React 18 projects including a bunch of useful tools and libraries enforcing best practices and autofix on save.
+
+For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose your favorite CSS framework and get started. It also includes the @namics/stylelint-bem plugin for BEM style validation.";git clone
+chrome-extension-boilerplate-react-vite;;https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteg;react,scss,vite,testing-library,jest,typescript,eslint,prettier,chrome extension,yarn;;Chrome Extension Boilerplate with React 18 + Vite + TypeScript;<git clone>
+vite-ant-design-pro;;https://github.com/Dunqing/vite-ant-design-pro;react,vite,typescript,react-query,react router,ant-design,react-intl,axios,classnames;;Vite Ant Design Pro.;"npm create ant-design-pro@latest
+yarn create ant-design-pro
+pnpm create ant-design-pro"
+vite-rtk-query;;https://github.com/laststance/vite-rtk-query;react,vite,redux-toolkit,redux,rtkquery,typescript,prettier,eslint,vitest,testing-library,react-hooks-testing-library,msw,tailwindcss,github-actions,npm;;"Vite RTK Query temptelte.
+This include React+TS with familiar pre-setup tooling
+Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
+This is the official Vite template(npm init vite@latest myapp -- --template react-ts) and some extended setup.";npx degit laststance/vite-rtk-query myapp
+vite-react-proste;;https://github.com/xyhxx/vite-react-proste;react,vite,typescript,react router,axios,scss,vitest,testing-library,react-query,eslint,stylelint,cypress,react-error-boundary,aliases,commitlint,commitizen,conventional changelog,prettier,lint-staged;;Simple, convenient, out of the box, using vite's react template;Clone this repo, like git clone https://github.com/xyhxx/vite-react-proste.git. In addition, you can click "Use this template" to copy this template to your repositories
+vite-react-ts-minimal-template;;https://github.com/alessandropisu/vite-react-ts-minimal-template;react,vite,typescript,husky,eslint,prettier;;A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦;"npx degit alessandropisu/vite-react-ts-minimal-template my-app
+cd my-app
+git init
+yarn install
+yarn dev"
+browser-app-boilerplate;;https://github.com/EverSeenTOTOTO/browser-app-boilerplate/tree/react-vite-ssr;react,vite,ssr,express,mobx,react router,commitizen,husky,lint-staged,postcss,scss,stylelint,make;;"A react ssr🚀 project boilerplate with full typescript, vite, eslint, stylelint, husky, lint-staged, commitlint support. NO combined UI library or style library, especially built for those who always want to choose eject and keep things under control.
+
+Production use of this project is possible, but will require advanced refactoring and optimization due to many implementation details.";"git clone https://github.com/EverSeenTOTOTO/browser-app-boilerplate.git my-project -b react-vite-ssr --depth 1
+cd my-project
+yarn"
+viact;;https://github.com/MR-Mostafa/Viact;vite,react,react router,typescript,unocss,https,eslint,prettier,postcss,commitlint,aliases,json-server,storybook,scss,yarn;;Viact is a starter template for React 18 + TypeScript that uses Vitejs, which supports RTL for specific styles, proxy fetching API (to fix CORS errors) and a simple mock REST API server. Additionally, Is set up VScode, Storybook, ErrorBoundary, UnoCss (atomic CSS engine), Eslint, Prettier, and more.;"git clone https://github.com/MR-Mostafa/Viact.git
+cd Viact
+yarn install
+yarn run reset"
+viterts;;https://github.com/erdoganbulut/viterts/;react,vite,typescript,react router,redux-toolkit,ant-design,jest,eslint,prettier,scss,css modules;;Viterts. Opinionated template;"npx degit erdoganbulut/viterts my-viterts-app
+cd my-viterts-app
+yarn # If you don't have yarn installed, run: npm install -g yarn"
+viterc;;https://github.com/potreco/viterc;vite,react,typescript,eslint,prettier,husky,jest,aliases,commitlint,commitizen;;A minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier, Testing with Jest and Git hooks with Husky out of the box;"npx degit potreco/viterc my-app
+cd my-app
+git init
+yarn install
+yarn dev"
+react-pwa;;https://github.com/suren-atoyan/react-pwa;react,recoil,react router,vite,typescript,eslint,prettier,mui,notifications,notistack,husky,lint-staged,pwa,https,npm;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;<git clone> or use as template
+vrttv;;https://github.com/Drumpy/vrttv-boilerplate;react,react router,tailwindcss,postcss,vite,typescript,eslint,prettier,husky,lint-staged,github-actions,vercel,pre-commit,commitlint,conventional commits,gitmoji;;"Are you tired of always creating the same structure from scratch for your projects? Me too.
+
+This is my go-to when I start a new project on front-end development.
+
+If you found it useful somehow, I would be grateful if you could leave a star in the project's GitHub repository";npx degit Drumpy/vrttv-boilerplate your-folder-name
+react-starter-kit;;https://github.com/kriasoft/react-starter-kit;react,recoil,react router,emotion,vite,vitest,typescript,eslint,prettier,mui,yarn,firebaseauth,cloudflare workers,corepack;;"The web's most popular Jamstack front-end template for building web applications with React.
+- Optimized for serverless deployment to CDN edge locations (Cloudflare Workers)
+- HTML page rendering (SSR) at CDN edge locations, all ~100 points on Lighthouse
+- Hot module replacement during local development using React Refetch
+- Pre-configured with CSS-in-JS styling using Emotion.js
+- Pre-configured with code quality tools: ESLint, Prettier, TypeScript, Vitest, etc.
+- Pre-configured with VSCode code snippets and other VSCode settings";"git clone https://github.com/kriasoft/react-starter-kit.git example
+cd ./example
+yarn install
+yarn start"
+vite-mern-template;;https://github.com/apicgg/vite-mern-template;react,typescript,redux-toolkit,axios,react router,express,mongoose,bcrypt.js,jsonwebtoken,express-async-handler,npm;;Simple opinionated template for MERN stack with Vite and Redux Toolkit. This includes React+TypeScript with familiar configuration for vite.config.ts.;npx degit apicgg/vite-mern-template my-app
+varsarr;;https://github.com/altmshfkgudtjr/varsarr;vite,react,axios,recoil,react-query,styled-components,typescript,aliases,eslint,prettier,renovate,codeql;;Speedy Vite Boilerplate.;npx degit altmshfkgudtjr/varsarr#main my-app
+viterjs-template;;https://github.com/emre-cil/viterjs-template;pnpm,vite,react,javascript,mui,axios,eslint,prettier,redux,redux-toolkit,vitest;;Boilerplate powered by vite for React-Javascript projects (Vite + JS + React + MUI + RRD + Prettier + EsLint);npx degit emre-cil/viterjs-template my-app
+react-vite-ts-boilerplate;;https://github.com/choisohyun/react-vite-ts-boilerplate;vite,react,typescript,eslint,prettier,yarn,renovate,husky,testing-library,vitest,scss,postcss,semantic-release,release-please;;Very Fast React Boilerplate;npx react-vite-ts-boilerplate my-app
+vite-react-universal-template;;https://github.com/laoer536/vite3.0-react18-TypeScript-router-dom6-mobx6-Eslint-prettier-template;vite,react,react router,mobx,typescript,eslint,prettier,husky,pnpm,axios,unplugin-auto-import;;"This starter template includes:
+- Vite 4
+- React18
+- React Router dom 6
+- Mobx6";<git clone>
+vite-reactts18-eslint-tailwindcss;;https://github.com/dserranoc/vite-reactts18-eslint-tailwindcss;vite,react,typescript,tailwindcss,eslint,npm;;This is a starter template for React (TypeScript) using Vite. I've also added TailwindCSS so you can style your app without writing CSS code, and ESLint to analyze your code and suggest some optimizations.;npx degit dserranoc/vite-reactts18-eslint-tailwindcss project-name
+985563349/react-vite-template;;https://github.com/985563349/react-vite-template;react,react router,typescript,axios,msw,vite,eslint,prettier,commitlint,aliases,lint-staged,husky;;If you need a clean template for development, then you can try it.;"# clone the project
+git clone https://github.com/985563349/react-vite-template
+cd react-vite-template
+pnpm install
+pnpm dev"
+react-xs-admin;;https://github.com/jsxiaosi/react-xs-admin;vite,react,react router,ant-design,emotion,prettier,redux-toolkit,axios,classnames,dayjs,localforage,redux-persist,commitlint,conventional changelog,crypto-js,husky,lint-staged,czg,pretty-quick;;The out of the box background template developed based on mainstream technologies such as React18,And Design,Vite4, and the built-in internationalization, routing permission control and other solutions can meet the needs of most enterprise management systems!;"git clone https://github.com/jsxiaosi/react-xs-admin.git
+OR
+git clone git@github.com:jsxiaosi/react-xs-admin.git
+OR 
+npx @jsxiaosi/xs-cli create [project-name]"
+vite-mui-ts;;https://github.com/emre-cil/vite-mui-ts;react,vite,typescript,redux,mui,eslint,prettier,redux-toolkit,vitest;;Boilerplate powered by vite for React-TypeScript projects (Vite + TypeScript + React + MUI + RRD + Prettier + ESLint);npx degit emre-cil/vite-mui-ts my-app
+leo-react-app;;https://github.com/Leo-Henrique/leo-react-app;react,vite,rfs,scss,svgr,styled-components;;leo-react-app it is a template / development environment in React for the web using Vite.;"# If you opted for SASS:
+npx degit leo-henrique/leo-react-app#sass
+# If you opted for styled-components
+npx degit leo-henrique/leo-react-app#styled-components"
+template-vite-react-ts-tailwind;;https://github.com/RoyRao2333/template-vite-react-ts-tailwind;react,vite,typescript,tailwindcss,eslint,prettier;;"A starter Vite template having:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Multiple eslint & prettier plugins installed";npx degit royrao2333/template-vite-react-ts-tailwind your-project-name
+vite-react-ts-tailwind-template;;https://github.com/nrabhiram/vite-react-ts-tailwind-template;vite,react,typescript,tailwindcss,eslint,prettier,vitest,husky,npm;;This template has been configured with all of the tools required to create a React Application using TypeScript and TailwindCSS with Vite.;git clone https://github.com/nrabhiram/vite-react-ts-tailwind-template.git
+vite-react-ts-template;;https://github.com/bartstc/vite-ts-react-template;vite,vitest,react,storybook,eslint,prettier,husky,typescript,chakra-ui,react-query,react router,dayjs,zustand,msw,devcontainer,fakestoreapi;;This project provides a basic dev setup intended for Single Page Application (SPA) development. It contains key tools, settings for seamless DX, and an demo app presenting good practices and used tooling in action.;git clone -b core --depth 1 --single-branch https://github.com/bartstc/spa-vite-template.git [project_name]
