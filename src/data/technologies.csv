@@ -58,7 +58,7 @@ unocss;       Unocss
 css modules;  CSS modules
 fela;
 clsx;
-daisyUI;
+daisyui;      daisyUI
 linaria;
 
 # Build
