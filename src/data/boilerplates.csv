@@ -154,3 +154,21 @@ git clone https://github.com/985563349/react-vite-template
 cd react-vite-template
 pnpm install
 pnpm dev"
+react-xs-admin;;https://github.com/jsxiaosi/react-xs-admin;vite,react,react router,ant-design,emotion,prettier,redux-toolkit,axios,classnames,dayjs,localforage,redux-persist,commitlint,conventional changelog,crypto-js,husky,lint-staged,czg,pretty-quick;;The out of the box background template developed based on mainstream technologies such as React18,And Design,Vite4, and the built-in internationalization, routing permission control and other solutions can meet the needs of most enterprise management systems!;"git clone https://github.com/jsxiaosi/react-xs-admin.git
+OR
+git clone git@github.com:jsxiaosi/react-xs-admin.git
+OR 
+npx @jsxiaosi/xs-cli create [project-name]"
+vite-mui-ts;;https://github.com/emre-cil/vite-mui-ts;react,vite,typescript,redux,mui,eslint,prettier,redux-toolkit,vitest;;Boilerplate powered by vite for React-TypeScript projects (Vite + TypeScript + React + MUI + RRD + Prettier + ESLint);npx degit emre-cil/vite-mui-ts my-app
+leo-react-app;;https://github.com/Leo-Henrique/leo-react-app;react,vite,rfs,scss,svgr,styled-components;;leo-react-app it is a template / development environment in React for the web using Vite.;"# If you opted for SASS:
+npx degit leo-henrique/leo-react-app#sass
+# If you opted for styled-components
+npx degit leo-henrique/leo-react-app#styled-components"
+template-vite-react-ts-tailwind;;https://github.com/RoyRao2333/template-vite-react-ts-tailwind;react,vite,typescript,tailwindcss,eslint,prettier;;"A starter Vite template having:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Multiple eslint & prettier plugins installed";npx degit royrao2333/template-vite-react-ts-tailwind your-project-name
+vite-react-ts-tailwind-template;;https://github.com/nrabhiram/vite-react-ts-tailwind-template;vite,react,typescript,tailwindcss,eslint,prettier,vitest,husky,npm;;This template has been configured with all of the tools required to create a React Application using TypeScript and TailwindCSS with Vite.;git clone https://github.com/nrabhiram/vite-react-ts-tailwind-template.git
+vite-react-ts-template;;https://github.com/bartstc/vite-ts-react-template;vite,vitest,react,storybook,eslint,prettier,husky,typescript,chakra-ui,react-query,react router,dayjs,zustand,msw,devcontainer,fakestoreapi;;This project provides a basic dev setup intended for Single Page Application (SPA) development. It contains key tools, settings for seamless DX, and an demo app presenting good practices and used tooling in action.;git clone -b core --depth 1 --single-branch https://github.com/bartstc/spa-vite-template.git [project_name]

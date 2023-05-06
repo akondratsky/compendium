@@ -39,6 +39,7 @@ pinia;          Pinia
 redux-toolkit;  Redux Toolkit
 xstate;
 robot;
+redux-persist
 
 
 # api
@@ -90,9 +91,12 @@ cypress;          Cypress
 detox;            Detox
 vitest;
 codecov;          Codecov
+react-hooks-testing-library;
+
+# mock servers
 msw;              Mock Service Worker (MSW)
 json-server;
-react-hooks-testing-library;
+fakestoreapi;     Fake Store API
 
 # Languages
 typescript;
@@ -128,6 +132,7 @@ chakra-ui;      Chakra UI
 framer-motion;  Framer Motion
 headlessui;
 mui;            MUI
+rfs;            RFS
 
 # icons
 react-icons;    
@@ -146,9 +151,14 @@ react-error-boundary;
 notifications;
 notistack;
 bcrypt.js;
+crypto-js;
 jsonwebtoken;
 express-async-handler;
 unplugin-auto-import;
+localforage;
+lodash;
+devcontainer;
+
 
 # date manipulation
 dayjs;
@@ -173,6 +183,8 @@ make;
 codeql;                 CodeQL Analysis
 semantic-release;
 release-please;
+czg;
+pretty-quick;
 
 # updates
 renovate;
