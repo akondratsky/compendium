@@ -19,6 +19,9 @@ nest;         Nest
 next;         Next
 vitepress;    VitePress
 ionic;        Ionic
+remix;        Remix
+gatsby;       Gatsby
+blitz;        Blitz
 
 # CLI
 angular-cli;  Angular CLI
@@ -60,6 +63,7 @@ fela;
 clsx;
 daisyui;      daisyUI
 linaria;
+emotion;
 
 # Build
 vite;         Vite
@@ -83,6 +87,7 @@ cypress;          Cypress
 detox;            Detox
 vitest;
 codecov;          Codecov
+msw;              Mock Service Worker (MSW)
 
 # Languages
 typescript;
@@ -127,6 +132,7 @@ react-hook-form;  React Hook Form
 
 # Validation
 zod;              Zod
+prop-types;
 
 # date manipulation
 dayjs;
@@ -144,8 +150,12 @@ rome;                   Rome
 commitizen;             commitizen (cz)
 commitlint;
 conventional changelog;
-renovate;
 github pages;           GitHub Pages
+all-contributors-cli;
+
+# updates
+renovate;
+depfu;
 
 # charts
 recharts;   
@@ -157,6 +167,7 @@ pwa;                PWA
 module-federation;  Module Federation
 islands;            Islands
 atomic design;      Atomic Design
+chrome extension;   Chrome Extension
 
 # Security
 https;              HTTPS

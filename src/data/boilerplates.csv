@@ -84,3 +84,12 @@ vital;;https://github.com/jvidalv/vital;react,tailwindcss,css modules,vite,alias
 Go to Netlify and select your repository, OK along the way, and your App will be live in a minute.";"npx degit jvidalv/vital my-vital-app
 cd my-vital-app
 yarn"
+template-vite-react-tailwind-v3;;https://github.com/huibizhang/template-vite-react-tailwind-v3;react,css,vite,javascript,tailwindcss;;React 17 + TailwindCSS;git clone
+template-vite-react-ts-tailwind-v3;;https://github.com/huibizhang/template-vite-react-ts-tailwind-v3;react,vite,typescript,tailwindcss,prettier;;"template of: vite + react + typescript
+tailwindcss: v3.x";git clone
+vite-react-starter;;https://github.com/coderfabri/vite-react-starter;vite,react,tailwindcss,eslint,prettier,scss,emotion,jest,testing-library,react router,stylelint,prop-types,pnpm;;"Opinionated Vite starter template.
+
+An starter template for Vite React 18 projects including a bunch of useful tools and libraries enforcing best practices and autofix on save.
+
+For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose your favorite CSS framework and get started. It also includes the @namics/stylelint-bem plugin for BEM style validation.";git clone
+chrome-extension-boilerplate-react-vite;;https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteg;react,scss,vite,testing-library,jest,typescript,eslint,prettier,chrome extension,yarn;;Chrome Extension Boilerplate with React 18 + Vite + TypeScript;<git clone>
