@@ -140,3 +140,17 @@ cd ./example
 yarn install
 yarn start"
 vite-mern-template;;https://github.com/apicgg/vite-mern-template;react,typescript,redux-toolkit,axios,react router,express,mongoose,bcrypt.js,jsonwebtoken,express-async-handler,npm;;Simple opinionated template for MERN stack with Vite and Redux Toolkit. This includes React+TypeScript with familiar configuration for vite.config.ts.;npx degit apicgg/vite-mern-template my-app
+varsarr;;https://github.com/altmshfkgudtjr/varsarr;vite,react,axios,recoil,react-query,styled-components,typescript,aliases,eslint,prettier,renovate,codeql;;Speedy Vite Boilerplate.;npx degit altmshfkgudtjr/varsarr#main my-app
+viterjs-template;;https://github.com/emre-cil/viterjs-template;pnpm,vite,react,javascript,mui,axios,eslint,prettier,redux,redux-toolkit,vitest;;Boilerplate powered by vite for React-Javascript projects (Vite + JS + React + MUI + RRD + Prettier + EsLint);npx degit emre-cil/viterjs-template my-app
+react-vite-ts-boilerplate;;https://github.com/choisohyun/react-vite-ts-boilerplate;vite,react,typescript,eslint,prettier,yarn,renovate,husky,testing-library,vitest,scss,postcss,semantic-release,release-please;;Very Fast React Boilerplate;npx react-vite-ts-boilerplate my-app
+vite-react-universal-template;;https://github.com/laoer536/vite3.0-react18-TypeScript-router-dom6-mobx6-Eslint-prettier-template;vite,react,react router,mobx,typescript,eslint,prettier,husky,pnpm,axios,unplugin-auto-import;;"This starter template includes:
+- Vite 4
+- React18
+- React Router dom 6
+- Mobx6";<git clone>
+vite-reactts18-eslint-tailwindcss;;https://github.com/dserranoc/vite-reactts18-eslint-tailwindcss;vite,react,typescript,tailwindcss,eslint,npm;;This is a starter template for React (TypeScript) using Vite. I've also added TailwindCSS so you can style your app without writing CSS code, and ESLint to analyze your code and suggest some optimizations.;npx degit dserranoc/vite-reactts18-eslint-tailwindcss project-name
+985563349/react-vite-template;;https://github.com/985563349/react-vite-template;react,react router,typescript,axios,msw,vite,eslint,prettier,commitlint,aliases,lint-staged,husky;;If you need a clean template for development, then you can try it.;"# clone the project
+git clone https://github.com/985563349/react-vite-template
+cd react-vite-template
+pnpm install
+pnpm dev"

@@ -66,6 +66,7 @@ daisyui;      daisyUI
 linaria;
 emotion;
 postcss;      PostCSS
+styled-components;  Styled-Components
 
 # Build
 vite;         Vite
@@ -147,6 +148,7 @@ notistack;
 bcrypt.js;
 jsonwebtoken;
 express-async-handler;
+unplugin-auto-import;
 
 # date manipulation
 dayjs;
@@ -168,6 +170,9 @@ conventional commits;
 github pages;           GitHub Pages
 all-contributors-cli;
 make;
+codeql;                 CodeQL Analysis
+semantic-release;
+release-please;
 
 # updates
 renovate;
