@@ -65,6 +65,7 @@ classnames;
 daisyui;      daisyUI
 linaria;
 emotion;
+postcss;      PostCSS
 
 # Build
 vite;         Vite
@@ -89,6 +90,8 @@ detox;            Detox
 vitest;
 codecov;          Codecov
 msw;              Mock Service Worker (MSW)
+json-server;
+react-hooks-testing-library;
 
 # Languages
 typescript;
@@ -123,6 +126,7 @@ webcomponents;  Web Components
 chakra-ui;      Chakra UI
 framer-motion;  Framer Motion
 headlessui;
+mui;            MUI
 
 # icons
 react-icons;    
@@ -134,6 +138,11 @@ react-hook-form;  React Hook Form
 # Validation
 zod;              Zod
 prop-types;
+
+# utils && accessories
+react-error-boundary;
+notifications;
+notistack;
 
 # date manipulation
 dayjs;
@@ -153,6 +162,7 @@ commitlint;
 conventional changelog;
 github pages;           GitHub Pages
 all-contributors-cli;
+make;
 
 # updates
 renovate;

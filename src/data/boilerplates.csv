@@ -93,6 +93,26 @@ An starter template for Vite React 18 projects including a bunch of useful tools
 
 For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose your favorite CSS framework and get started. It also includes the @namics/stylelint-bem plugin for BEM style validation.";git clone
 chrome-extension-boilerplate-react-vite;;https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteg;react,scss,vite,testing-library,jest,typescript,eslint,prettier,chrome extension,yarn;;Chrome Extension Boilerplate with React 18 + Vite + TypeScript;<git clone>
-vite-ant-design-pro;;https://github.com/Dunqing/vite-ant-design-pro;react,vite,typescript,react-query,react router,ant-design,react-intl,axios,classnames;;Vite Ant Design Pro. ;"npm create ant-design-pro@latest
+vite-ant-design-pro;;https://github.com/Dunqing/vite-ant-design-pro;react,vite,typescript,react-query,react router,ant-design,react-intl,axios,classnames;;Vite Ant Design Pro.;"npm create ant-design-pro@latest
 yarn create ant-design-pro
 pnpm create ant-design-pro"
+vite-rtk-query;;https://github.com/laststance/vite-rtk-query;react,vite,redux-toolkit,redux,rtkquery,typescript,prettier,eslint,vitest,testing-library,react-hooks-testing-library,msw,tailwindcss,github-actions,npm;;"Vite RTK Query temptelte.
+This include React+TS with familiar pre-setup tooling
+Redux Toolkit, RTK Query, eslint/prettier, Vitest/TS/react-testing-library/MSW, tailwindcss, GitHub Actions CI.
+This is the official Vite template(npm init vite@latest myapp -- --template react-ts) and some extended setup.";npx degit laststance/vite-rtk-query myapp
+vite-react-proste;;https://github.com/xyhxx/vite-react-proste;react,vite,typescript,react router,axios,scss,vitest,testing-library,react-query,eslint,stylelint,cypress,react-error-boundary,aliases,commitlint,commitizen,conventional changelog,prettier,lint-staged;;Simple, convenient, out of the box, using vite's react template;Clone this repo, like git clone https://github.com/xyhxx/vite-react-proste.git. In addition, you can click "Use this template" to copy this template to your repositories
+react-pwa;;https://github.com/suren-atoyan/react-pwa;vite,react,typescript,react router,mui,recoil,notifications,pwa,eslint,prettier,husky,lint-staged,https,npm,notistack;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;
+vite-react-ts-minimal-template;;https://github.com/alessandropisu/vite-react-ts-minimal-template;react,vite,typescript,husky,eslint,prettier;;A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦;"npx degit alessandropisu/vite-react-ts-minimal-template my-app
+cd my-app
+git init
+yarn install
+yarn dev"
+browser-app-boilerplate;;https://github.com/EverSeenTOTOTO/browser-app-boilerplate/tree/react-vite-ssr;react,vite,ssr,express,mobx,react router,commitizen,husky,lint-staged,postcss,scss,stylelint,make;;"A react ssr🚀 project boilerplate with full typescript, vite, eslint, stylelint, husky, lint-staged, commitlint support. NO combined UI library or style library, especially built for those who always want to choose eject and keep things under control.
+
+Production use of this project is possible, but will require advanced refactoring and optimization due to many implementation details.";"git clone https://github.com/EverSeenTOTOTO/browser-app-boilerplate.git my-project -b react-vite-ssr --depth 1
+cd my-project
+yarn"
+viact;;https://github.com/MR-Mostafa/Viact;vite,react,react router,typescript,unocss,https,eslint,prettier,postcss,commitlint,aliases,json-server,storybook,scss,yarn;;Viact is a starter template for React 18 + TypeScript that uses Vitejs, which supports RTL for specific styles, proxy fetching API (to fix CORS errors) and a simple mock REST API server. Additionally, Is set up VScode, Storybook, ErrorBoundary, UnoCss (atomic CSS engine), Eslint, Prettier, and more.;"git clone https://github.com/MR-Mostafa/Viact.git
+cd Viact
+yarn install
+yarn run reset"
