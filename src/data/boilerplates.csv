@@ -56,9 +56,29 @@ rm -rf .git
 git init
 npm i
 npm run dev"
- vite-react-tailwind-template;;https://github.com/Innei/vite-react-tailwind-template;vite,react,eslint,prettier,husky,lint-staged,tailwindcss,pnpm,typescript;;Vite React Tailwind Template;"git clone https://github.com/Innei/vite-react-tailwind-template my-app
+vite-react-tailwind-template;;https://github.com/Innei/vite-react-tailwind-template;vite,react,eslint,prettier,husky,lint-staged,tailwindcss,pnpm,typescript;;Vite React Tailwind Template;"git clone https://github.com/Innei/vite-react-tailwind-template my-app
 cd my-app
 rm -rf .git
 git init
+pnpm i
+pnpm dev"
+tropical;https://tropical.js.org/;https://github.com/bensmithett/tropical;react,fela,vite,ladle,mdx,json feeds,islands,yarpm;;Fast, mostly-just-HTML static sites with islands of client-side JS. Read the website for additional information.;"Should be used as template repo, or just:
+git clone https://github.com/bensmithett/tropical my-app
+rm -rf .git
+git init"
+stratival;;https://github.com/rizkimcitra/stravital;vite,yarn,react,tailwindcss,typescript,eslint,prettier,conventional changelog,husky,lint-staged,aliases,clsx,react-icons;;Kickstart your Web Application with React 18, Vite and Tailwind CSS.;"git clone https://github.com/rizkimcitra/stravital
+cd stratival
+yarn install && yarn dev"
+vite-react-ts-tailwind-firebase-starter;;https://github.com/TeXmeijin/vite-react-ts-tailwind-firebase-starter;vite,react,typescript,tailwindcss,prettier,daisyUI,firebase,aliases,headlessui,renovate,eslint;;Starter using Vite + React + TypeScript + Tailwind with Firebase.;git clone
+uchihamalolan/vite-react-ts;;https://github.com/uchihamalolan/vite-react-ts;react,vite,typescript,jest,testing-library,eslint,prettier,tailwindcss,aliases,lint-staged,husky;;"Drop-in Replacement for CRA but powered by Vite
+- Import SVG's directly as React Component via SVGR
+- Unit Testing via Jest & React Testing Library
+- ESLint Rules & Prettier
+- Tailwind
+- Absolute imports within src directory";npx degit uchihamalolan/vite-react-ts your-app-name
+vital;;https://github.com/jvidalv/vital;react,vite,typescript,jest,tailwindcss,css modules,aliases,heroicons,commitlint;;"Vite with React 18, typescript and tailwind.
+Go to Netlify and select your repository, OK along the way, and your App will be live in a minute.";
+vite-react-ts-ghactions-template;;https://github.com/pchmn/vite-react-ts-ghactions-template;react,vite,typescript,vitest,testing-library,github-actions,github pages,eslint,prettier,husky,commitlint,lint-staged,codecov;;This a React 18 + TypeScript + Vitest and React Testing Library + GitHub Actions starter template built with Vite 4.;"npx degit pchmn/vite-react-ts-ghactions-template app_name
+cd app_name
 pnpm i
 pnpm dev"

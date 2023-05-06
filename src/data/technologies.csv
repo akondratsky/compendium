@@ -27,17 +27,27 @@ nx;           Nx
 
 # state managers
 redux;        Redux
+zustand;
 mobx;         MobX
+valtio;
 recoil;
+jotai;
 pinia;          Pinia
-react query;    React Query
 redux-toolkit;  Redux Toolkit
+xstate;
+robot;
+
 
 # api
-axios
+axios;
+ky;
+react-query;    React Query
+swr;            SWR
+rtkquery;       RTKQuery
 
 # routing
-vue-router
+vue-router;
+react router; React Router
 
 # CSS / styling
 tailwindcss;  Tailwind CSS
@@ -46,6 +56,10 @@ less;         Less
 css;          CSS
 unocss;       Unocss
 css modules;  CSS modules
+fela;
+clsx;
+daisyUI;
+linaria;
 
 # Build
 vite;         Vite
@@ -58,6 +72,7 @@ aliases;      import aliases
 
 # Assets
 svg;          SVG
+svgr;         SVGR
 
 # Testing
 e2e;              e2e
@@ -67,11 +82,13 @@ jest;             Jest
 cypress;          Cypress
 detox;            Detox
 vitest;
+codecov;          Codecov
 
 # Languages
 typescript;
 javascript;
 rescript;
+reason;
 
 # Linting
 eslint;       ESLint
@@ -81,6 +98,9 @@ stylelint;    Stylelint
 # Documents
 docusaurus;     Docusaurus
 storybook;      Storybook
+ladle;          Ladle
+mdx;            MDX
+json feeds;     JSON Feed
 
 # UI Frameworks, design systems and components
 element-plus;   Element Plus
@@ -96,25 +116,47 @@ stencil;        Stencil
 webcomponents;  Web Components
 chakra-ui;      Chakra UI
 framer-motion;  Framer Motion
+headlessui;
+
+# icons
+react-icons;    
+heroicons;
+
+# Forms
+react-hook-form;  React Hook Form
+
+# Validation
+zod;              Zod
+
+# date manipulation
+dayjs;
+date-fns;
+luxon;          Luxon
 
 # Automatization & deploy
 ci;
 husky;
 lint-staged;
-github-actions;   GitHub Actions
-vercel;           Vercel
+github-actions;         GitHub Actions
+vercel;                 Vercel
 pre-commit;
-rome;             Rome
-commitizen;       commitizen (cz)
+rome;                   Rome
+commitizen;             commitizen (cz)
+commitlint;
+conventional changelog;
+renovate;
+github pages;           GitHub Pages
 
 # charts
 recharts;   
 
-# Approaches
+# Approaches / architectures
 ssg;                SSG
 ssr;                SSR
 pwa;                PWA
 module-federation;  Module Federation
+islands;            Islands
+atomic design;      Atomic Design
 
 # Security
 https;              HTTPS
@@ -123,7 +165,9 @@ https;              HTTPS
 pnpm;
 yarn;
 npm;
+yarpm;
 
 # Clouds
 aws;          AWS
 gcp;          GCP
+firebase;     Firebase
