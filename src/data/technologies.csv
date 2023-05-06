@@ -131,6 +131,7 @@ mui;            MUI
 # icons
 react-icons;    
 heroicons;
+gitmoji;
 
 # Forms
 react-hook-form;  React Hook Form
@@ -143,6 +144,9 @@ prop-types;
 react-error-boundary;
 notifications;
 notistack;
+bcrypt.js;
+jsonwebtoken;
+express-async-handler;
 
 # date manipulation
 dayjs;
@@ -189,11 +193,17 @@ pnpm;
 yarn;
 npm;
 yarpm;
+corepack;
 
 # i18n
 react-intl;
 
 # Clouds
-aws;          AWS
-gcp;          GCP
-firebase;     Firebase
+aws;                AWS
+gcp;                GCP
+firebase;           Firebase
+firebaseauth;       Firebase Authentication
+cloudflare workers; Clourflare Workers
+
+# databases
+mongoose;

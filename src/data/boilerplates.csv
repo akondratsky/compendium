@@ -123,9 +123,20 @@ cd my-app
 git init
 yarn install
 yarn dev"
-vrttv;;https://github.com/Drumpy/vrttv-boilerplate;vite,react,react router,typescript,tailwindcss,prettier,eslint,husky,pre-commit,lint-staged,conventional commits,github-actions,vercel,commitlint,postcss;;"Are you tired of always creating the same structure from scratch for your projects? Me too.
+react-pwa;;https://github.com/suren-atoyan/react-pwa;react,recoil,react router,vite,typescript,eslint,prettier,mui,notifications,notistack,husky,lint-staged,pwa,https,npm;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;<git clone> or use as template
+vrttv;;https://github.com/Drumpy/vrttv-boilerplate;react,react router,tailwindcss,postcss,vite,typescript,eslint,prettier,husky,lint-staged,github-actions,vercel,pre-commit,commitlint,conventional commits,gitmoji;;"Are you tired of always creating the same structure from scratch for your projects? Me too.
 
 This is my go-to when I start a new project on front-end development.
 
 If you found it useful somehow, I would be grateful if you could leave a star in the project's GitHub repository";npx degit Drumpy/vrttv-boilerplate your-folder-name
-react-pwa;;https://github.com/suren-atoyan/react-pwa;react,recoil,react router,vite,typescript,eslint,prettier,mui,notifications,notistack,husky,lint-staged,pwa,https,npm;;This project (a GitHub template) is an opinionated setup for modern web applications built on React 18. It's a combination of essential (and minimal) libraries/components/utils/etc., which developers usually need during the process of making modern React applications.;<git clone> or use as template
+react-starter-kit;;https://github.com/kriasoft/react-starter-kit;react,recoil,react router,emotion,vite,vitest,typescript,eslint,prettier,mui,yarn,firebaseauth,cloudflare workers,corepack;;"The web's most popular Jamstack front-end template for building web applications with React.
+- Optimized for serverless deployment to CDN edge locations (Cloudflare Workers)
+- HTML page rendering (SSR) at CDN edge locations, all ~100 points on Lighthouse
+- Hot module replacement during local development using React Refetch
+- Pre-configured with CSS-in-JS styling using Emotion.js
+- Pre-configured with code quality tools: ESLint, Prettier, TypeScript, Vitest, etc.
+- Pre-configured with VSCode code snippets and other VSCode settings";"git clone https://github.com/kriasoft/react-starter-kit.git example
+cd ./example
+yarn install
+yarn start"
+vite-mern-template;;https://github.com/apicgg/vite-mern-template;react,typescript,redux-toolkit,axios,react router,express,mongoose,bcrypt.js,jsonwebtoken,express-async-handler,npm;;Simple opinionated template for MERN stack with Vite and Redux Toolkit. This includes React+TypeScript with familiar configuration for vite.config.ts.;npx degit apicgg/vite-mern-template my-app
