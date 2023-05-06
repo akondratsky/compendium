@@ -61,6 +61,7 @@ unocss;       Unocss
 css modules;  CSS modules
 fela;
 clsx;
+classnames;
 daisyui;      daisyUI
 linaria;
 emotion;
@@ -177,6 +178,9 @@ pnpm;
 yarn;
 npm;
 yarpm;
+
+# i18n
+react-intl;
 
 # Clouds
 aws;          AWS
